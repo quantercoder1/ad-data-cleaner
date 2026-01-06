@@ -5,67 +5,73 @@ import hashlib
 # --- CONFIGURACIÓN DE PÁGINA ---
 st.set_page_config(page_title="AdData Cleaner PRO", page_icon="💎", layout="centered")
 
-# --- LÓGICA DE IDIOMA ---
-idioma = st.sidebar.selectbox("Language / Idioma", ["Español", "English"])
+# --- BASE DE DATOS DE CLIENTES (SIMULADA) ---
+# En el futuro, esto se conectará a la API de Lemon Squeezy.
+# Por ahora, tú agregas manualmentes las claves aquí cuando te paguen.
+LICENCIAS_ACTIVAS = {
+    "DEMO-USER": {"nombre": "Usuario Beta", "valida": True},
+    "CLIENTE-001": {"nombre": "Agencia Alpha", "valida": True},
+    "SUPER-ADMIN": {"nombre": "Admin", "valida": True}
+}
 
+def validar_licencia(clave):
+    """Verifica si la clave existe en nuestra 'base de datos'"""
+    if clave in LICENCIAS_ACTIVAS:
+        if LICENCIAS_ACTIVAS[clave]["valida"]:
+            return True, LICENCIAS_ACTIVAS[clave]["nombre"]
+    return False, None
+
+# --- TEXTOS ---
 textos = {
     "Español": {
         "titulo": "💎 AdData Cleaner PRO",
-        "subtitulo": "Herramienta premium para limpiar y hashear audiencias de Meta/Google Ads.",
-        "aviso": "Tus datos se procesan en memoria localmente. Privacidad 100% garantizada.",
-        "subir": "Sube tu archivo sucio (CSV/Excel)",
-        "config": "Mapeo de Datos",
-        "col_email": "Columna de Email",
-        "col_tel": "Columna de Teléfono (Opcional)",
-        "opciones": "Seguridad & Formato",
-        "encriptar": "Aplicar Hashing SHA256 (GDPR Compliance)",
+        "subtitulo": "Herramienta premium: Limpia formatos y encripta (SHA256) sin perder columnas.",
+        "aviso": "Tus datos se procesan localmente. Se mantienen todas las columnas originales.",
+        "subir": "Sube tu archivo (CSV o Excel)",
+        "config": "Selecciona las columnas a limpiar",
+        "col_email": "¿Cuál es tu columna de Email?",
+        "col_tel": "¿Cuál es tu columna de Teléfono? (Opcional)",
+        "opciones": "Seguridad",
+        "encriptar": "🛡️ Aplicar Hashing SHA256 (GDPR)",
         "boton": "⚡ Procesar Archivo",
-        "bloqueo_titulo": "🔒 Desbloquear Descarga",
-        "bloqueo_msg": "Esta herramienta es exclusiva. Ingresa tu Clave de Acceso para descargar.",
-        "bloqueo_input": "Ingresa tu Clave de Licencia",
-        "bloqueo_cta": "¿No tienes clave? Solicita una DEMO o Licencia aquí:",
-        "exito_auth": "✅ Licencia Válida. Descarga habilitada.",
-        "descargar": "📥 Descargar Clean Data (.csv)",
-        "error_clave": "Clave incorrecta.",
-        "link_texto": "Contactar al Desarrollador en LinkedIn"
+        "bloqueo_titulo": "🔒 Validación de Licencia",
+        "bloqueo_msg": "Ingresa tu clave de licencia única para descargar el resultado.",
+        "exito_auth": "✅ Licencia Verificada. Hola, ",
+        "descargar": "📥 Descargar Data Lista (.csv)",
+        "error_clave": "🚫 Clave inválida o expirada. Contacta a soporte."
     },
     "English": {
         "titulo": "💎 AdData Cleaner PRO",
-        "subtitulo": "Premium tool to clean and hash Meta/Google Ads audiences.",
-        "aviso": "Data is processed in-memory locally. 100% Privacy guaranteed.",
-        "subir": "Upload dirty file (CSV/Excel)",
-        "config": "Data Mapping",
-        "col_email": "Email Column",
-        "col_tel": "Phone Column (Optional)",
-        "opciones": "Security & Formatting",
-        "encriptar": "Apply SHA256 Hashing (GDPR Compliance)",
+        "subtitulo": "Premium tool: Clean formats and hash (SHA256) keeping all original columns.",
+        "aviso": "Data processed locally. All original columns are preserved.",
+        "subir": "Upload your file (CSV or Excel)",
+        "config": "Select columns to clean",
+        "col_email": "Which is your Email column?",
+        "col_tel": "Which is your Phone column? (Optional)",
+        "opciones": "Security",
+        "encriptar": "🛡️ Apply SHA256 Hashing (GDPR)",
         "boton": "⚡ Process File",
-        "bloqueo_titulo": "🔒 Unlock Download",
-        "bloqueo_msg": "This is an exclusive tool. Enter your Access Key to download.",
-        "bloqueo_input": "Enter License Key",
-        "bloqueo_cta": "No key? Request a DEMO or License here:",
-        "exito_auth": "✅ Key Valid. Download enabled.",
-        "descargar": "📥 Download Clean Data (.csv)",
-        "error_clave": "Invalid Key.",
-        "link_texto": "Contact Developer on LinkedIn"
+        "bloqueo_titulo": "🔒 License Validation",
+        "bloqueo_msg": "Enter your unique license key to download the result.",
+        "exito_auth": "✅ License Verified. Hello, ",
+        "descargar": "📥 Download Ready Data (.csv)",
+        "error_clave": "🚫 Invalid or expired key. Contact support."
     }
 }
 
+# --- INTERFAZ ---
+idioma = st.sidebar.selectbox("Language / Idioma", ["Español", "English"])
 t = textos[idioma]
 
-# --- TU CLAVE MAESTRA (Cámbiala por lo que quieras) ---
-CLAVE_MAESTRA = "BETA2025"  
-# -----------------------------------------------------
-
-# --- INTERFAZ ---
 st.title(t["titulo"])
-st.markdown(f"*{t['subtitulo']}*")
+st.markdown(t["subtitulo"])
 st.info(t["aviso"])
 
 uploaded_file = st.file_uploader(t["subir"], type=["csv", "xlsx"])
 
 if uploaded_file is not None:
     try:
+        # Cargar datos
         if uploaded_file.name.endswith('.csv'):
             df = pd.read_csv(uploaded_file)
         else:
@@ -73,53 +79,62 @@ if uploaded_file is not None:
 
         st.write("Preview:", df.head(3))
 
-        col1, col2 = st.columns(2)
-        with col1:
-            email_col = st.selectbox(t["col_email"], df.columns)
-        with col2:
-            phone_col = st.selectbox(t["col_tel"], ["None"] + df.columns.tolist())
-
+        # Configuración
+        st.subheader(t["config"])
+        cols = df.columns.tolist()
+        
+        # Selectores
+        email_col = st.selectbox(t["col_email"], cols)
+        phone_col = st.selectbox(t["col_tel"], ["-- Ignorar / Ignore --"] + cols)
+        
+        st.divider()
         usar_hashing = st.checkbox(t["encriptar"], value=True)
 
         if st.button(t["boton"]):
-            # Procesamiento (Ocurre oculto)
-            clean_df = pd.DataFrame()
-            clean_df['email'] = df[email_col].astype(str).str.strip().str.lower()
-            if phone_col != "None":
-                clean_df['phone'] = df[phone_col].astype(str).str.replace(r'\D', '', regex=True)
-            
-            if usar_hashing:
-                clean_df['email'] = clean_df['email'].apply(lambda x: hashlib.sha256(x.encode()).hexdigest())
-                if phone_col != "None":
-                    clean_df['phone'] = clean_df['phone'].apply(lambda x: hashlib.sha256(x.encode()).hexdigest())
-            
-            # Guardar en sesión para no perderlo al recargar
-            st.session_state['data_procesada'] = clean_df.to_csv(index=False).encode('utf-8')
-            st.session_state['archivo_listo'] = True
+            # TRUCO: Trabajamos sobre una copia para no borrar las otras columnas
+            clean_df = df.copy()
+
+            with st.spinner("Processing..."):
+                # 1. Limpieza de Email (Sobreescribe la columna original limpia)
+                clean_df[email_col] = clean_df[email_col].astype(str).str.strip().str.lower()
+                
+                # 2. Hashing Email
+                if usar_hashing:
+                    clean_df[email_col] = clean_df[email_col].apply(lambda x: hashlib.sha256(x.encode()).hexdigest())
+
+                # 3. Limpieza de Teléfono (Si se seleccionó)
+                if phone_col != "-- Ignorar / Ignore --":
+                    # Quitar todo lo que no sea número
+                    clean_df[phone_col] = clean_df[phone_col].astype(str).str.replace(r'\D', '', regex=True)
+                    # Hashing Teléfono
+                    if usar_hashing:
+                        clean_df[phone_col] = clean_df[phone_col].apply(lambda x: hashlib.sha256(x.encode()).hexdigest())
+
+                # Guardar en sesión
+                st.session_state['data_final'] = clean_df.to_csv(index=False).encode('utf-8')
+                st.session_state['ready'] = True
 
     except Exception as e:
         st.error(f"Error: {e}")
 
-# --- SECCIÓN DE COBRO / BLOQUEO ---
-if st.session_state.get('archivo_listo'):
+# --- SISTEMA DE LICENCIAS ---
+if st.session_state.get('ready'):
     st.divider()
     st.subheader(t["bloqueo_titulo"])
     st.write(t["bloqueo_msg"])
     
-    # Input de la clave
-    user_key = st.text_input(t["bloqueo_input"], type="password")
+    licencia_input = st.text_input("License Key / Clave:", type="password")
     
-    if user_key == CLAVE_MAESTRA:
-        st.success(t["exito_auth"])
-        st.download_button(
-            label=t["descargar"],
-            data=st.session_state['data_procesada'],
-            file_name="clean_hashed_data.csv",
-            mime="text/csv"
-        )
-    else:
-        st.warning("⚠️")
-        st.markdown(f"**{t['bloqueo_cta']}**")
+    if licencia_input:
+        valida, nombre_cliente = validar_licencia(licencia_input)
         
-        # --- ¡PON TU LINK DE LINKEDIN AQUÍ! ---
-        LINK_LINKEDIN = "
+        if valida:
+            st.success(f"{t['exito_auth']} {nombre_cliente}!")
+            st.download_button(
+                label=t["descargar"],
+                data=st.session_state['data_final'],
+                file_name="clean_data_full.csv",
+                mime="text/csv"
+            )
+        else:
+            st.error(t["error_clave"])
