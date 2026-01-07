@@ -1,0 +1,5 @@
+Subscriber,Email_List,Status
+Sub1, NEWSLETTER@BLOG.COM,Active
+Sub2,fan1@gmail.com,Active
+Sub3,fan2@hotmail.com ,Unsubscribed
+Sub4,ERROR_EMAIL,Active

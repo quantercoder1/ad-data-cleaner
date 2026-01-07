@@ -5,17 +5,15 @@ import hashlib
 # --- CONFIGURACIÓN DE PÁGINA ---
 st.set_page_config(page_title="AdData Cleaner PRO", page_icon="💎", layout="centered")
 
-# --- BASE DE DATOS DE CLIENTES (SIMULADA) ---
-# En el futuro, esto se conectará a la API de Lemon Squeezy.
-# Por ahora, tú agregas manualmentes las claves aquí cuando te paguen.
+# --- BASE DE DATOS DE CLIENTES ---
+# Agrega aquí las claves de tus futuros clientes
 LICENCIAS_ACTIVAS = {
     "DEMO-USER": {"nombre": "Usuario Beta", "valida": True},
     "CLIENTE-001": {"nombre": "Agencia Alpha", "valida": True},
-    "SUPER-ADMIN": {"nombre": "Admin", "valida": True}
+    "ADMIN": {"nombre": "Admin", "valida": True}
 }
 
 def validar_licencia(clave):
-    """Verifica si la clave existe en nuestra 'base de datos'"""
     if clave in LICENCIAS_ACTIVAS:
         if LICENCIAS_ACTIVAS[clave]["valida"]:
             return True, LICENCIAS_ACTIVAS[clave]["nombre"]
@@ -59,6 +57,39 @@ textos = {
     }
 }
 
+# --- FUNCIÓN DE LIMPIEZA SEGURA ---
+def clean_and_hash(val, hash_enabled):
+    """Limpia el valor y aplica hash solo si no está vacío"""
+    # 1. Convertir a string y quitar espacios
+    val_str = str(val).strip().lower()
+    
+    # 2. Si es 'nan', vacio o 'none', devolver vacío sin hashear
+    if val_str in ['nan', 'none', '', 'null']:
+        return ""
+    
+    # 3. Aplicar Hash si está activado
+    if hash_enabled:
+        return hashlib.sha256(val_str.encode()).hexdigest()
+    
+    return val_str
+
+def clean_phone(val, hash_enabled):
+    """Específico para teléfonos: quita letras antes de hashear"""
+    val_str = str(val).strip()
+    if val_str in ['nan', 'none', '', 'null']:
+        return ""
+    
+    # Quitar todo lo que no sea dígito
+    nums_only = "".join(filter(str.isdigit, val_str))
+    
+    if not nums_only: # Si quedó vacío
+        return ""
+
+    if hash_enabled:
+        return hashlib.sha256(nums_only.encode()).hexdigest()
+    
+    return nums_only
+
 # --- INTERFAZ ---
 idioma = st.sidebar.selectbox("Language / Idioma", ["Español", "English"])
 t = textos[idioma]
@@ -71,7 +102,6 @@ uploaded_file = st.file_uploader(t["subir"], type=["csv", "xlsx"])
 
 if uploaded_file is not None:
     try:
-        # Cargar datos
         if uploaded_file.name.endswith('.csv'):
             df = pd.read_csv(uploaded_file)
         else:
@@ -79,11 +109,9 @@ if uploaded_file is not None:
 
         st.write("Preview:", df.head(3))
 
-        # Configuración
         st.subheader(t["config"])
         cols = df.columns.tolist()
         
-        # Selectores
         email_col = st.selectbox(t["col_email"], cols)
         phone_col = st.selectbox(t["col_tel"], ["-- Ignorar / Ignore --"] + cols)
         
@@ -91,33 +119,23 @@ if uploaded_file is not None:
         usar_hashing = st.checkbox(t["encriptar"], value=True)
 
         if st.button(t["boton"]):
-            # TRUCO: Trabajamos sobre una copia para no borrar las otras columnas
-            clean_df = df.copy()
+            clean_df = df.copy() # Copia segura
 
             with st.spinner("Processing..."):
-                # 1. Limpieza de Email (Sobreescribe la columna original limpia)
-                clean_df[email_col] = clean_df[email_col].astype(str).str.strip().str.lower()
-                
-                # 2. Hashing Email
-                if usar_hashing:
-                    clean_df[email_col] = clean_df[email_col].apply(lambda x: hashlib.sha256(x.encode()).hexdigest())
+                # Aplicar limpieza inteligente fila por fila
+                clean_df[email_col] = clean_df[email_col].apply(lambda x: clean_and_hash(x, usar_hashing))
 
-                # 3. Limpieza de Teléfono (Si se seleccionó)
                 if phone_col != "-- Ignorar / Ignore --":
-                    # Quitar todo lo que no sea número
-                    clean_df[phone_col] = clean_df[phone_col].astype(str).str.replace(r'\D', '', regex=True)
-                    # Hashing Teléfono
-                    if usar_hashing:
-                        clean_df[phone_col] = clean_df[phone_col].apply(lambda x: hashlib.sha256(x.encode()).hexdigest())
+                    clean_df[phone_col] = clean_df[phone_col].apply(lambda x: clean_phone(x, usar_hashing))
 
-                # Guardar en sesión
+                # Guardar resultado
                 st.session_state['data_final'] = clean_df.to_csv(index=False).encode('utf-8')
                 st.session_state['ready'] = True
 
     except Exception as e:
         st.error(f"Error: {e}")
 
-# --- SISTEMA DE LICENCIAS ---
+# --- LICENCIAS ---
 if st.session_state.get('ready'):
     st.divider()
     st.subheader(t["bloqueo_titulo"])
@@ -127,13 +145,12 @@ if st.session_state.get('ready'):
     
     if licencia_input:
         valida, nombre_cliente = validar_licencia(licencia_input)
-        
         if valida:
             st.success(f"{t['exito_auth']} {nombre_cliente}!")
             st.download_button(
                 label=t["descargar"],
                 data=st.session_state['data_final'],
-                file_name="clean_data_full.csv",
+                file_name="clean_data_secure.csv",
                 mime="text/csv"
             )
         else:

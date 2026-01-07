@@ -1,0 +1,6 @@
+Order_ID,Customer_Email,Mobile_Phone,Total_Spent,Currency
+101, JUAN@GMAIL.COM ,555-123-4567,1500.5,MXN
+102,maria.perez@hotmail.com,(81) 8345-6789,200.0,MXN
+103,  info@empresa.mx,55 4433 2211,5000.0,MXN
+104,PEDRO@YAHOO.COM,+52 1 55 9999 0000,45.9,USD
+105,luis.test@gmail.com,5551112222,120.0,MXN

@@ -1,0 +1,6 @@
+ID_Cliente,Nombre,Correo_Electronico,Celular,Direccion,Notas
+C-001,Empresa A,contacto@a.com,5511223344,Calle 1,Cliente VIP
+C-002,Empresa B,,8112233445,Av Reforma,Moroso
+C-003,Empresa C,ventas@c.com,,Calle 5,Nuevo
+C-004,Empresa D,admin@d.com,3312345678,Blvd Norte,Contactar mañana
+C-005,Empresa E,,5598765432,Centro,Baja
