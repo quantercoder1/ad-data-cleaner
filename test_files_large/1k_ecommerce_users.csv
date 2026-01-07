@@ -1,0 +1,1001 @@
+Order_ID,Customer_Name,Buyer_Email,Contact_Phone,Total_Paid,Status
+ORD-1000,Luisa Perez,Luisa.Gomez @yahoo.com,55-6164-059622,434.43,Refunded
+ORD-1001,Juan Diaz,Diana.Diaz @HOTMAIL.COM,4178498477,907.11,Refunded
+ORD-1002,Juan Perez,LUISA.SMITH@OUTLOOK.COM,(682) 354 8595,207.21,Paid
+ORD-1003,Diana Lopez,PEDRO.MARTINEZ@HOTMAIL.COM,(999) 542 5046,1664.09,Paid
+ORD-1004,Carlos Smith,SOFIA.SMITH@YAHOO.COM,8786427908,86.65,Pending
+ORD-1005,Maria Martinez,,9214322171,4275.18,Pending
+ORD-1006,Sofia Perez,BETO.GOMEZ@OUTLOOK.COM,+52 1 8306608752,2401.13,Pending
+ORD-1007,Pedro Martinez,JUAN.GARCIA@EMPRESA.MX,+52 1 9289947573,3598.43,Paid
+ORD-1008,Diana Diaz,pedro.martinez@agency.io,6731092078,1701.14,Pending
+ORD-1009,Diana Hernandez,miguel.martinez@agency.io,(859) 841 4847,2640.11,Paid
+ORD-1010,Miguel Garcia,BETO.LOPEZ@YAHOO.COM,+52 1 5568101618,2649.09,Refunded
+ORD-1011,Carlos Diaz,pedro.diaz@empresa.mx,Tel: 1188667865 Ext 123,4616.16,Paid
+ORD-1012,Sofia Lopez,  Beto.Ruiz@empresa.mx ,+52 1 8121485984,4204.17,Refunded
+ORD-1013,Beto Hernandez,,5535349074,2240.54,Paid
+ORD-1014,Pedro Lopez,MARIA.GARCIA@OUTLOOK.COM,(397) 255 4641,1830.8,Paid
+ORD-1015,Luisa Martinez,  Juan.Gomez@yahoo.com ,,3101.44,Pending
+ORD-1016,Maria Lopez,,6323315770,3286.22,Pending
+ORD-1017,Maria Ruiz,luisa.lopez@empresa.mx,,2504.35,Refunded
+ORD-1018,Juan Garcia,  Pedro.Smith@HOTMAIL.COM ,,3555.54,Paid
+ORD-1019,Maria Lopez,MIGUEL.HERNANDEZ@OUTLOOK.COM,+52 1 5334270716,3853.51,Paid
+ORD-1020,Miguel Gomez,LUISA.GARCIA@OUTLOOK.COM,4802073160,624.47,Pending
+ORD-1021,Sofia Perez,beto.lopez@empresa.mx,Tel: 1469819798 Ext 123,1875.8,Pending
+ORD-1022,Miguel Garcia,SOFIA.PEREZ@HOTMAIL.COM,Tel: 3316846279 Ext 123,1205.29,Paid
+ORD-1023,Pedro Hernandez,BETO.PEREZ@GMAIL.COM,,4726.7,Pending
+ORD-1024,Diana Martinez,diana.ruiz@hotmail.com,5197743987,4886.07,Pending
+ORD-1025,Luisa Martinez,ANA.PEREZ@AGENCY.IO,9385086017,539.0,Refunded
+ORD-1026,Sofia Martinez,maria.smith@hotmail.com,55-9802-319234,400.45,Refunded
+ORD-1027,Pedro Gomez,  Diana.Ruiz@HOTMAIL.COM ,+52 1 6348756278,1154.46,Paid
+ORD-1028,Sofia Hernandez,Beto.Garcia @HOTMAIL.COM,55-1264-658416,2584.34,Pending
+ORD-1029,Pedro Martinez,  Carlos.Diaz@gmail.com ,5211809155,3475.98,Pending
+ORD-1030,Sofia Diaz,juan.lopez@agency.io,+52 1 1627062308,4914.37,Refunded
+ORD-1031,Beto Martinez,ana.lopez@empresa.mx,Tel: 1432564051 Ext 123,3758.19,Paid
+ORD-1032,Diana Lopez,JUAN.RUIZ@HOTMAIL.COM,5443311389,1462.4,Refunded
+ORD-1033,Luisa Garcia,  Ana.Hernandez@outlook.com ,(367) 226 3379,4863.61,Paid
+ORD-1034,Luisa Smith,Beto.Smith @empresa.mx,(394) 413 7508,4466.65,Pending
+ORD-1035,Diana Hernandez,  Ana.Lopez@empresa.mx ,(527) 636 0704,4006.43,Refunded
+ORD-1036,Juan Diaz,,55-2022-091449,2251.37,Paid
+ORD-1037,Beto Diaz,  Juan.Smith@HOTMAIL.COM ,55-1483-988844,4060.69,Paid
+ORD-1038,Diana Lopez,Luisa.Lopez @HOTMAIL.COM,Tel: 8292923508 Ext 123,4135.37,Paid
+ORD-1039,Diana Smith,JUAN.SMITH@GMAIL.COM,6975155475,2356.91,Paid
+ORD-1040,Ana Garcia,Diana.Hernandez @agency.io,,3720.82,Refunded
+ORD-1041,Juan Lopez,  Carlos.Smith@HOTMAIL.COM ,9882142691,1768.66,Refunded
+ORD-1042,Carlos Martinez,  Pedro.Hernandez@agency.io ,Tel: 5885906293 Ext 123,902.59,Refunded
+ORD-1043,Miguel Perez,Diana.Perez @HOTMAIL.COM,Tel: 3639924164 Ext 123,2689.96,Refunded
+ORD-1044,Pedro Diaz,juan.hernandez@gmail.com,+52 1 1265130834,4532.53,Refunded
+ORD-1045,Sofia Smith,Beto.Lopez @empresa.mx,Tel: 1159112955 Ext 123,860.46,Paid
+ORD-1046,Maria Garcia,  Beto.Diaz@agency.io ,Tel: 6409522926 Ext 123,570.89,Pending
+ORD-1047,Luisa Garcia,diana.smith@empresa.mx,(906) 972 2620,338.46,Paid
+ORD-1048,Miguel Gomez,ana.perez@agency.io,+52 1 9524573221,3027.78,Pending
+ORD-1049,Beto Smith,,9341706487,1151.32,Refunded
+ORD-1050,Ana Garcia,Pedro.Lopez @outlook.com,+52 1 2721686538,3101.93,Pending
+ORD-1051,Sofia Lopez,Miguel.Perez @yahoo.com,55-2905-729878,4488.1,Pending
+ORD-1052,Diana Perez,juan.perez@yahoo.com,(751) 666 4709,2175.81,Pending
+ORD-1053,Pedro Martinez,Juan.Lopez @HOTMAIL.COM,3814655363,4091.65,Pending
+ORD-1054,Luisa Hernandez,Luisa.Gomez @agency.io,55-7776-963624,3183.21,Refunded
+ORD-1055,Luisa Lopez,MARIA.LOPEZ@AGENCY.IO,55-5194-349199,2155.39,Refunded
+ORD-1056,Maria Hernandez,CARLOS.HERNANDEZ@HOTMAIL.COM,(734) 128 8318,3575.28,Paid
+ORD-1057,Diana Perez,pedro.perez@outlook.com,7882683068,619.74,Paid
+ORD-1058,Diana Hernandez,JUAN.MARTINEZ@YAHOO.COM,3111060799,861.76,Pending
+ORD-1059,Luisa Diaz,Sofia.Martinez @yahoo.com,+52 1 1613876255,530.58,Refunded
+ORD-1060,Beto Smith,MIGUEL.HERNANDEZ@AGENCY.IO,7843467646,2722.36,Refunded
+ORD-1061,Carlos Lopez,MARIA.PEREZ@EMPRESA.MX,55-6855-969982,2128.44,Paid
+ORD-1062,Sofia Martinez,CARLOS.HERNANDEZ@AGENCY.IO,Tel: 8384847565 Ext 123,1555.4,Refunded
+ORD-1063,Pedro Perez,MARIA.GARCIA@YAHOO.COM,,4829.86,Refunded
+ORD-1064,Sofia Martinez,  Ana.Smith@yahoo.com ,1439369544,4061.92,Paid
+ORD-1065,Miguel Hernandez,LUISA.GOMEZ@OUTLOOK.COM,(221) 161 6019,3110.03,Pending
+ORD-1066,Ana Smith,  Sofia.Lopez@HOTMAIL.COM ,,2259.1,Pending
+ORD-1067,Miguel Gomez,Carlos.Smith @empresa.mx,(585) 827 2937,1883.41,Pending
+ORD-1068,Luisa Lopez,MARIA.PEREZ@EMPRESA.MX,55-8952-416513,3876.65,Refunded
+ORD-1069,Sofia Smith,Diana.Lopez @HOTMAIL.COM,55-6207-291684,2971.93,Pending
+ORD-1070,Miguel Martinez,  Miguel.Diaz@agency.io ,,1199.99,Pending
+ORD-1071,Luisa Martinez,,(998) 169 7418,840.91,Paid
+ORD-1072,Pedro Lopez,Diana.Garcia @HOTMAIL.COM,55-5419-287398,3660.94,Refunded
+ORD-1073,Carlos Hernandez,  Pedro.Diaz@gmail.com ,55-9905-980305,2579.06,Refunded
+ORD-1074,Luisa Garcia,Sofia.Diaz @gmail.com,,4925.1,Pending
+ORD-1075,Luisa Ruiz,  Beto.Lopez@outlook.com ,(397) 583 1960,1079.59,Pending
+ORD-1076,Luisa Diaz,carlos.lopez@hotmail.com,Tel: 1122439497 Ext 123,1809.35,Refunded
+ORD-1077,Maria Perez,DIANA.PEREZ@EMPRESA.MX,55-9042-546440,2361.46,Pending
+ORD-1078,Beto Smith,juan.ruiz@agency.io,,4403.06,Refunded
+ORD-1079,Sofia Martinez,BETO.RUIZ@OUTLOOK.COM,Tel: 8547126396 Ext 123,2606.31,Refunded
+ORD-1080,Luisa Garcia,ANA.GOMEZ@EMPRESA.MX,+52 1 9759952886,197.01,Paid
+ORD-1081,Ana Ruiz,DIANA.LOPEZ@AGENCY.IO,+52 1 8644386966,1204.44,Pending
+ORD-1082,Carlos Smith,BETO.RUIZ@OUTLOOK.COM,(911) 425 0476,3582.38,Pending
+ORD-1083,Sofia Lopez,  Pedro.Garcia@agency.io ,Tel: 9932508955 Ext 123,3233.93,Refunded
+ORD-1084,Diana Martinez,Pedro.Martinez @yahoo.com,+52 1 2694783717,2299.07,Refunded
+ORD-1085,Diana Perez,MIGUEL.GARCIA@GMAIL.COM,,4936.58,Paid
+ORD-1086,Maria Ruiz,PEDRO.DIAZ@GMAIL.COM,(760) 959 5014,3624.64,Refunded
+ORD-1087,Carlos Martinez,,55-5864-141941,2702.7,Pending
+ORD-1088,Sofia Gomez,juan.martinez@agency.io,3459359280,4065.03,Pending
+ORD-1089,Diana Martinez,  Juan.Ruiz@HOTMAIL.COM ,55-5618-278739,1428.9,Refunded
+ORD-1090,Diana Hernandez,,+52 1 4738459440,2559.58,Paid
+ORD-1091,Ana Perez,Luisa.Martinez @HOTMAIL.COM,5365052219,3184.8,Refunded
+ORD-1092,Diana Perez,  Miguel.Garcia@empresa.mx ,(946) 920 9359,1184.81,Paid
+ORD-1093,Maria Garcia,  Luisa.Diaz@empresa.mx ,2219756737,4746.5,Pending
+ORD-1094,Beto Hernandez,MIGUEL.PEREZ@EMPRESA.MX,Tel: 8108829449 Ext 123,63.03,Refunded
+ORD-1095,Beto Garcia,  Ana.Gomez@outlook.com ,4465378917,3227.17,Pending
+ORD-1096,Beto Diaz,Sofia.Garcia @yahoo.com,(230) 320 4944,2719.21,Paid
+ORD-1097,Carlos Gomez,  Juan.Perez@gmail.com ,+52 1 5858757448,1733.49,Paid
+ORD-1098,Luisa Garcia,pedro.lopez@hotmail.com,,1120.15,Refunded
+ORD-1099,Diana Lopez,SOFIA.GOMEZ@HOTMAIL.COM,Tel: 4664939429 Ext 123,134.65,Pending
+ORD-1100,Juan Perez,  Beto.Smith@gmail.com ,+52 1 9642997047,2319.48,Paid
+ORD-1101,Maria Perez,Carlos.Hernandez @outlook.com,4345267863,167.33,Pending
+ORD-1102,Sofia Gomez,Maria.Lopez @empresa.mx,(471) 683 6757,4472.16,Pending
+ORD-1103,Sofia Diaz,ana.perez@hotmail.com,,2166.88,Paid
+ORD-1104,Miguel Perez,Ana.Gomez @outlook.com,Tel: 4238996920 Ext 123,4593.06,Paid
+ORD-1105,Miguel Martinez,DIANA.PEREZ@OUTLOOK.COM,5383027272,2224.76,Pending
+ORD-1106,Pedro Diaz,miguel.garcia@outlook.com,6346292906,4288.17,Paid
+ORD-1107,Luisa Martinez,pedro.lopez@agency.io,7152032985,3241.41,Paid
+ORD-1108,Pedro Ruiz,Ana.Lopez @gmail.com,1264731874,4769.86,Refunded
+ORD-1109,Maria Garcia,carlos.gomez@agency.io,,3823.92,Refunded
+ORD-1110,Juan Ruiz,Beto.Martinez @gmail.com,6387436465,1129.83,Paid
+ORD-1111,Pedro Smith,,(212) 981 7165,2147.43,Refunded
+ORD-1112,Ana Ruiz,  Maria.Diaz@yahoo.com ,55-1605-845262,1198.99,Pending
+ORD-1113,Maria Ruiz,carlos.hernandez@hotmail.com,Tel: 6514003988 Ext 123,786.09,Refunded
+ORD-1114,Beto Lopez,  Luisa.Lopez@gmail.com ,(322) 278 9815,2296.96,Refunded
+ORD-1115,Carlos Lopez,JUAN.LOPEZ@GMAIL.COM,Tel: 2236766115 Ext 123,2762.24,Pending
+ORD-1116,Maria Hernandez,carlos.gomez@hotmail.com,+52 1 7425675743,1546.6,Pending
+ORD-1117,Ana Smith,Maria.Lopez @gmail.com,55-1789-577166,4871.52,Refunded
+ORD-1118,Juan Gomez,Pedro.Garcia @HOTMAIL.COM,55-8853-822813,1051.92,Pending
+ORD-1119,Miguel Diaz,,3672424441,3545.91,Refunded
+ORD-1120,Pedro Lopez,,Tel: 1231787817 Ext 123,284.55,Refunded
+ORD-1121,Diana Martinez,pedro.smith@yahoo.com,Tel: 9716841748 Ext 123,678.62,Pending
+ORD-1122,Sofia Ruiz,juan.smith@outlook.com,Tel: 2022264625 Ext 123,765.11,Paid
+ORD-1123,Beto Smith,beto.smith@gmail.com,(269) 719 5765,2518.37,Paid
+ORD-1124,Beto Lopez,  Diana.Garcia@yahoo.com ,5127798281,3654.12,Refunded
+ORD-1125,Diana Lopez,  Ana.Martinez@yahoo.com ,(744) 900 6607,2855.6,Paid
+ORD-1126,Maria Garcia,luisa.smith@hotmail.com,Tel: 6737477866 Ext 123,3716.9,Refunded
+ORD-1127,Diana Ruiz,  Juan.Diaz@agency.io ,+52 1 7479683638,2934.76,Refunded
+ORD-1128,Ana Gomez,  Ana.Diaz@empresa.mx ,+52 1 6004486600,1086.01,Pending
+ORD-1129,Carlos Hernandez,  Luisa.Diaz@HOTMAIL.COM ,(396) 357 9602,4048.74,Refunded
+ORD-1130,Miguel Perez,Beto.Lopez @outlook.com,(150) 336 5434,572.48,Refunded
+ORD-1131,Pedro Martinez,Pedro.Hernandez @agency.io,7207833943,924.75,Pending
+ORD-1132,Maria Perez,juan.martinez@gmail.com,+52 1 5741321751,2472.41,Paid
+ORD-1133,Miguel Garcia,Diana.Lopez @agency.io,55-1408-918649,746.94,Pending
+ORD-1134,Sofia Martinez,maria.perez@yahoo.com,(396) 158 8723,3924.65,Paid
+ORD-1135,Luisa Ruiz,  Juan.Diaz@yahoo.com ,Tel: 7186885200 Ext 123,3266.66,Paid
+ORD-1136,Ana Perez,DIANA.LOPEZ@OUTLOOK.COM,(233) 490 5904,848.93,Pending
+ORD-1137,Carlos Gomez,CARLOS.GOMEZ@AGENCY.IO,,824.34,Paid
+ORD-1138,Juan Martinez,Carlos.Diaz @outlook.com,,839.18,Refunded
+ORD-1139,Ana Lopez,  Diana.Martinez@yahoo.com ,+52 1 2727947623,2445.37,Refunded
+ORD-1140,Sofia Diaz,Beto.Ruiz @HOTMAIL.COM,55-7566-827550,528.86,Pending
+ORD-1141,Beto Gomez,Diana.Perez @agency.io,,3688.87,Paid
+ORD-1142,Sofia Diaz,  Sofia.Martinez@outlook.com ,1127269896,4488.79,Refunded
+ORD-1143,Pedro Hernandez,,5452183810,4202.68,Paid
+ORD-1144,Carlos Lopez,beto.ruiz@hotmail.com,(398) 236 7812,921.03,Paid
+ORD-1145,Sofia Gomez,Luisa.Hernandez @outlook.com,2916998843,1231.37,Refunded
+ORD-1146,Carlos Garcia,  Pedro.Perez@outlook.com ,55-6046-211723,846.99,Pending
+ORD-1147,Carlos Hernandez,DIANA.GARCIA@YAHOO.COM,55-7832-522337,1751.7,Refunded
+ORD-1148,Juan Garcia,carlos.gomez@gmail.com,Tel: 4412507138 Ext 123,3217.02,Refunded
+ORD-1149,Juan Lopez,SOFIA.PEREZ@OUTLOOK.COM,Tel: 4493158314 Ext 123,2969.47,Refunded
+ORD-1150,Ana Hernandez,  Luisa.Smith@gmail.com ,Tel: 5047002378 Ext 123,2742.62,Refunded
+ORD-1151,Ana Ruiz,beto.garcia@empresa.mx,55-4206-682907,1017.3,Pending
+ORD-1152,Maria Garcia,ana.perez@empresa.mx,55-8237-000666,4151.74,Refunded
+ORD-1153,Juan Perez,Luisa.Lopez @yahoo.com,,1407.68,Pending
+ORD-1154,Carlos Ruiz,diana.diaz@outlook.com,+52 1 9909264439,219.79,Paid
+ORD-1155,Maria Martinez,BETO.SMITH@YAHOO.COM,,3560.54,Paid
+ORD-1156,Carlos Perez,maria.gomez@hotmail.com,,4778.38,Pending
+ORD-1157,Pedro Perez,miguel.martinez@gmail.com,1013406276,2570.7,Paid
+ORD-1158,Luisa Martinez,carlos.lopez@yahoo.com,,864.67,Paid
+ORD-1159,Diana Diaz,luisa.martinez@gmail.com,55-3609-577345,628.33,Paid
+ORD-1160,Luisa Diaz,,Tel: 8026653909 Ext 123,2428.99,Paid
+ORD-1161,Diana Gomez,MIGUEL.SMITH@HOTMAIL.COM,(298) 752 7142,4693.19,Paid
+ORD-1162,Beto Lopez,CARLOS.RUIZ@GMAIL.COM,Tel: 9662872479 Ext 123,1921.15,Pending
+ORD-1163,Beto Hernandez,SOFIA.RUIZ@YAHOO.COM,5869787728,255.97,Refunded
+ORD-1164,Pedro Smith,Miguel.Garcia @empresa.mx,(395) 995 2084,2483.01,Pending
+ORD-1165,Luisa Lopez,beto.perez@empresa.mx,(629) 449 2070,274.01,Pending
+ORD-1166,Pedro Perez,diana.smith@hotmail.com,Tel: 6893549802 Ext 123,4984.48,Paid
+ORD-1167,Miguel Diaz,sofia.perez@gmail.com,55-8075-589703,2646.15,Refunded
+ORD-1168,Carlos Hernandez,Miguel.Hernandez @empresa.mx,6075018265,4168.83,Pending
+ORD-1169,Sofia Diaz,Juan.Perez @agency.io,4434614011,4188.05,Paid
+ORD-1170,Miguel Martinez,  Miguel.Gomez@agency.io ,4008202627,1160.96,Pending
+ORD-1171,Juan Lopez,SOFIA.PEREZ@EMPRESA.MX,(875) 207 3500,1579.47,Paid
+ORD-1172,Maria Diaz,luisa.hernandez@yahoo.com,7695943458,3110.83,Paid
+ORD-1173,Beto Garcia,luisa.lopez@empresa.mx,4396520793,2459.01,Refunded
+ORD-1174,Sofia Gomez,juan.smith@hotmail.com,+52 1 2959998057,1846.14,Pending
+ORD-1175,Juan Perez,pedro.smith@gmail.com,55-7074-789864,2293.05,Refunded
+ORD-1176,Sofia Garcia,  Carlos.Ruiz@agency.io ,55-1129-476997,1063.73,Paid
+ORD-1177,Carlos Gomez,ANA.SMITH@YAHOO.COM,(278) 168 2855,202.06,Pending
+ORD-1178,Maria Perez,,(971) 515 9562,1618.33,Pending
+ORD-1179,Sofia Garcia,  Ana.Smith@agency.io ,55-2292-121550,2658.01,Pending
+ORD-1180,Ana Ruiz,Sofia.Perez @HOTMAIL.COM,(403) 361 9954,1307.55,Paid
+ORD-1181,Carlos Ruiz,Pedro.Smith @gmail.com,55-5826-096784,677.73,Refunded
+ORD-1182,Miguel Gomez,  Pedro.Gomez@yahoo.com ,,3796.24,Refunded
+ORD-1183,Sofia Martinez,Miguel.Diaz @HOTMAIL.COM,(368) 546 4001,2900.44,Paid
+ORD-1184,Carlos Perez,  Maria.Perez@agency.io ,Tel: 9385851034 Ext 123,2596.58,Pending
+ORD-1185,Beto Ruiz,,+52 1 4352749369,2742.56,Paid
+ORD-1186,Maria Garcia,  Luisa.Gomez@yahoo.com ,1166690085,4402.97,Paid
+ORD-1187,Juan Perez,MARIA.GOMEZ@AGENCY.IO,5208948611,1531.96,Pending
+ORD-1188,Maria Diaz,  Beto.Smith@empresa.mx ,2645968038,158.03,Refunded
+ORD-1189,Diana Diaz,Carlos.Smith @outlook.com,Tel: 3828763863 Ext 123,3231.71,Paid
+ORD-1190,Maria Ruiz,maria.hernandez@agency.io,55-3043-628922,3941.01,Refunded
+ORD-1191,Carlos Diaz,  Diana.Smith@empresa.mx ,+52 1 8502677013,1536.64,Refunded
+ORD-1192,Juan Smith,  Juan.Garcia@HOTMAIL.COM ,(350) 910 1689,629.12,Paid
+ORD-1193,Sofia Martinez,Carlos.Garcia @empresa.mx,55-3733-701410,1329.49,Paid
+ORD-1194,Maria Ruiz,BETO.GOMEZ@YAHOO.COM,Tel: 8279797986 Ext 123,2686.54,Paid
+ORD-1195,Carlos Garcia,MARIA.GOMEZ@GMAIL.COM,55-6107-466772,2187.32,Pending
+ORD-1196,Sofia Garcia,MIGUEL.RUIZ@HOTMAIL.COM,1312187762,4002.77,Paid
+ORD-1197,Miguel Ruiz,  Diana.Hernandez@outlook.com ,(483) 854 2173,1123.29,Refunded
+ORD-1198,Sofia Ruiz,SOFIA.GARCIA@HOTMAIL.COM,1193421364,4016.59,Pending
+ORD-1199,Sofia Smith,,1207903282,2742.39,Pending
+ORD-1200,Pedro Hernandez,  Pedro.Perez@gmail.com ,,479.67,Pending
+ORD-1201,Luisa Gomez,CARLOS.RUIZ@EMPRESA.MX,(125) 323 0835,3728.81,Refunded
+ORD-1202,Miguel Martinez,Pedro.Smith @agency.io,+52 1 1023537680,3241.27,Paid
+ORD-1203,Pedro Gomez,SOFIA.PEREZ@YAHOO.COM,55-7265-902820,1254.23,Paid
+ORD-1204,Maria Ruiz,Miguel.Garcia @empresa.mx,55-5958-259768,4077.68,Refunded
+ORD-1205,Maria Smith,Diana.Perez @agency.io,55-7868-111476,1145.64,Paid
+ORD-1206,Carlos Garcia,  Beto.Perez@yahoo.com ,Tel: 1103565447 Ext 123,1161.48,Paid
+ORD-1207,Carlos Gomez,CARLOS.PEREZ@EMPRESA.MX,(925) 753 8979,108.2,Refunded
+ORD-1208,Pedro Hernandez,  Carlos.Hernandez@HOTMAIL.COM ,55-3727-765634,2058.84,Refunded
+ORD-1209,Miguel Lopez,JUAN.GOMEZ@GMAIL.COM,Tel: 1487781477 Ext 123,3779.86,Paid
+ORD-1210,Juan Garcia,Luisa.Smith @empresa.mx,Tel: 4217632631 Ext 123,4211.12,Refunded
+ORD-1211,Pedro Gomez,  Maria.Smith@outlook.com ,7434718989,3431.22,Pending
+ORD-1212,Beto Smith,,6163702717,4483.04,Pending
+ORD-1213,Miguel Smith,,+52 1 5814062758,3754.68,Refunded
+ORD-1214,Ana Perez,Juan.Perez @outlook.com,55-6431-305704,2886.57,Pending
+ORD-1215,Ana Gomez,Beto.Perez @HOTMAIL.COM,5342987154,3382.35,Refunded
+ORD-1216,Ana Lopez,Diana.Ruiz @gmail.com,Tel: 1304172796 Ext 123,3324.02,Pending
+ORD-1217,Carlos Garcia,maria.ruiz@gmail.com,4562894961,2578.15,Refunded
+ORD-1218,Diana Martinez,Juan.Diaz @agency.io,+52 1 7607920191,357.0,Pending
+ORD-1219,Sofia Martinez,SOFIA.GOMEZ@EMPRESA.MX,,3108.38,Paid
+ORD-1220,Juan Lopez,,9024223037,679.62,Paid
+ORD-1221,Diana Ruiz,  Luisa.Hernandez@agency.io ,Tel: 9753175644 Ext 123,4492.25,Paid
+ORD-1222,Maria Hernandez,sofia.garcia@outlook.com,,1721.25,Pending
+ORD-1223,Diana Ruiz,CARLOS.PEREZ@EMPRESA.MX,,4664.08,Pending
+ORD-1224,Diana Smith,sofia.gomez@gmail.com,2994421129,3625.81,Paid
+ORD-1225,Maria Garcia,Maria.Martinez @yahoo.com,55-7446-133983,2385.74,Paid
+ORD-1226,Sofia Martinez,miguel.gomez@hotmail.com,+52 1 8771673014,2022.96,Paid
+ORD-1227,Diana Diaz,Ana.Diaz @outlook.com,55-6369-545542,4137.41,Paid
+ORD-1228,Maria Diaz,CARLOS.RUIZ@OUTLOOK.COM,8094216439,480.49,Pending
+ORD-1229,Diana Lopez,  Sofia.Diaz@outlook.com ,55-6532-196196,4599.42,Refunded
+ORD-1230,Juan Hernandez,diana.smith@gmail.com,Tel: 6453680125 Ext 123,3565.07,Paid
+ORD-1231,Luisa Perez,  Luisa.Garcia@HOTMAIL.COM ,,2514.02,Refunded
+ORD-1232,Diana Hernandez,PEDRO.SMITH@AGENCY.IO,Tel: 1894158293 Ext 123,4196.64,Paid
+ORD-1233,Juan Diaz,Pedro.Martinez @agency.io,3294223757,3768.94,Paid
+ORD-1234,Carlos Perez,  Diana.Gomez@gmail.com ,Tel: 4905987494 Ext 123,3776.3,Refunded
+ORD-1235,Beto Smith,  Beto.Hernandez@agency.io ,Tel: 8663337752 Ext 123,2589.85,Pending
+ORD-1236,Pedro Garcia,  Diana.Lopez@agency.io ,(394) 633 0538,4242.72,Pending
+ORD-1237,Carlos Lopez,pedro.garcia@outlook.com,,4084.87,Refunded
+ORD-1238,Ana Diaz,PEDRO.PEREZ@EMPRESA.MX,(319) 559 0922,235.18,Paid
+ORD-1239,Miguel Hernandez,Maria.Smith @empresa.mx,5893401740,89.66,Refunded
+ORD-1240,Pedro Ruiz,  Beto.Ruiz@yahoo.com ,5202772159,4919.85,Paid
+ORD-1241,Pedro Garcia,maria.garcia@agency.io,+52 1 6013468604,1526.15,Refunded
+ORD-1242,Pedro Ruiz,Carlos.Gomez @gmail.com,6972551491,3990.29,Pending
+ORD-1243,Juan Diaz,pedro.martinez@agency.io,55-6804-102480,4423.96,Pending
+ORD-1244,Carlos Lopez,SOFIA.SMITH@YAHOO.COM,Tel: 5976732336 Ext 123,1152.36,Pending
+ORD-1245,Carlos Garcia,juan.hernandez@outlook.com,+52 1 2783799776,4966.5,Paid
+ORD-1246,Maria Garcia,Beto.Smith @agency.io,Tel: 3578604647 Ext 123,3245.51,Refunded
+ORD-1247,Luisa Ruiz,miguel.garcia@hotmail.com,55-3206-146496,3921.08,Paid
+ORD-1248,Sofia Smith,Beto.Gomez @yahoo.com,(894) 718 4400,1422.15,Pending
+ORD-1249,Pedro Martinez,  Sofia.Hernandez@HOTMAIL.COM ,Tel: 9448008390 Ext 123,833.6,Paid
+ORD-1250,Pedro Hernandez,  Maria.Ruiz@empresa.mx ,(840) 146 9136,2466.64,Refunded
+ORD-1251,Sofia Hernandez,  Carlos.Lopez@yahoo.com ,Tel: 3371801789 Ext 123,2208.58,Paid
+ORD-1252,Pedro Diaz,ana.lopez@empresa.mx,8028674084,4461.35,Paid
+ORD-1253,Beto Hernandez,PEDRO.SMITH@HOTMAIL.COM,7649466742,4156.9,Pending
+ORD-1254,Juan Perez,Maria.Gomez @gmail.com,,4390.96,Paid
+ORD-1255,Miguel Perez,Sofia.Ruiz @HOTMAIL.COM,Tel: 4028489075 Ext 123,1809.06,Refunded
+ORD-1256,Juan Diaz,Juan.Smith @empresa.mx,Tel: 3503505246 Ext 123,1976.72,Pending
+ORD-1257,Maria Perez,  Diana.Smith@HOTMAIL.COM ,55-9845-499351,4961.22,Paid
+ORD-1258,Miguel Hernandez,Sofia.Diaz @yahoo.com,+52 1 6425569771,2560.6,Pending
+ORD-1259,Sofia Smith,Ana.Perez @empresa.mx,7666209768,2765.4,Pending
+ORD-1260,Sofia Garcia,CARLOS.GOMEZ@AGENCY.IO,+52 1 9961073575,919.45,Pending
+ORD-1261,Pedro Martinez,  Carlos.Diaz@HOTMAIL.COM ,Tel: 1371140656 Ext 123,582.59,Pending
+ORD-1262,Diana Hernandez,MIGUEL.MARTINEZ@OUTLOOK.COM,2743094745,3258.4,Paid
+ORD-1263,Ana Ruiz,ana.gomez@outlook.com,Tel: 5633846053 Ext 123,1994.77,Pending
+ORD-1264,Luisa Garcia,beto.martinez@outlook.com,+52 1 6416312676,1715.0,Pending
+ORD-1265,Luisa Smith,beto.hernandez@yahoo.com,55-8822-449092,4378.73,Pending
+ORD-1266,Maria Lopez,Ana.Smith @HOTMAIL.COM,55-3927-119184,189.85,Paid
+ORD-1267,Pedro Lopez,  Diana.Hernandez@agency.io ,55-2946-777165,1919.16,Paid
+ORD-1268,Juan Garcia,MIGUEL.RUIZ@HOTMAIL.COM,55-7261-143102,3309.0,Paid
+ORD-1269,Miguel Lopez,Miguel.Perez @HOTMAIL.COM,(149) 342 2336,1912.15,Pending
+ORD-1270,Diana Diaz,  Maria.Martinez@yahoo.com ,Tel: 7544526978 Ext 123,4616.05,Refunded
+ORD-1271,Juan Lopez,Pedro.Lopez @yahoo.com,(956) 954 7734,3549.95,Pending
+ORD-1272,Maria Hernandez,ANA.PEREZ@HOTMAIL.COM,(124) 412 4013,2996.7,Paid
+ORD-1273,Sofia Lopez,,Tel: 8071473681 Ext 123,4968.04,Pending
+ORD-1274,Sofia Gomez,diana.hernandez@empresa.mx,(268) 790 9380,3791.59,Refunded
+ORD-1275,Sofia Smith,  Maria.Ruiz@agency.io ,9126167198,2179.3,Pending
+ORD-1276,Juan Hernandez,Diana.Perez @outlook.com,55-4419-689136,302.0,Refunded
+ORD-1277,Diana Hernandez,sofia.garcia@yahoo.com,(251) 838 1308,2991.78,Refunded
+ORD-1278,Diana Garcia,  Maria.Garcia@HOTMAIL.COM ,+52 1 7546235837,4518.93,Paid
+ORD-1279,Juan Martinez,Sofia.Garcia @yahoo.com,+52 1 9761685371,3960.31,Pending
+ORD-1280,Juan Smith,  Pedro.Gomez@gmail.com ,(569) 983 6326,1264.52,Paid
+ORD-1281,Diana Hernandez,carlos.martinez@hotmail.com,55-5838-468152,661.25,Paid
+ORD-1282,Miguel Ruiz,diana.hernandez@yahoo.com,7087838434,3079.39,Pending
+ORD-1283,Diana Martinez,maria.garcia@empresa.mx,Tel: 9378708143 Ext 123,325.09,Pending
+ORD-1284,Maria Perez,Luisa.Smith @agency.io,(432) 746 3162,103.78,Refunded
+ORD-1285,Beto Hernandez,sofia.lopez@agency.io,(974) 986 8513,301.17,Refunded
+ORD-1286,Juan Hernandez,MARIA.DIAZ@GMAIL.COM,Tel: 6722406184 Ext 123,1624.6,Pending
+ORD-1287,Miguel Lopez,beto.ruiz@empresa.mx,+52 1 9464945635,2072.95,Refunded
+ORD-1288,Luisa Hernandez,beto.diaz@empresa.mx,+52 1 3516684278,2219.54,Paid
+ORD-1289,Carlos Ruiz,,Tel: 3041556658 Ext 123,4465.56,Paid
+ORD-1290,Maria Lopez,diana.martinez@yahoo.com,+52 1 2126314989,177.97,Paid
+ORD-1291,Sofia Martinez,maria.lopez@gmail.com,,1103.37,Paid
+ORD-1292,Pedro Garcia,Sofia.Gomez @agency.io,,4369.06,Pending
+ORD-1293,Juan Diaz,,7515944736,1103.38,Paid
+ORD-1294,Pedro Smith,Ana.Hernandez @gmail.com,55-5206-924063,1758.29,Refunded
+ORD-1295,Ana Ruiz,miguel.ruiz@empresa.mx,Tel: 5371019647 Ext 123,2921.64,Paid
+ORD-1296,Pedro Diaz,  Miguel.Smith@gmail.com ,Tel: 2278608097 Ext 123,3096.96,Refunded
+ORD-1297,Pedro Lopez,Diana.Garcia @gmail.com,7573843742,974.14,Refunded
+ORD-1298,Sofia Lopez,Luisa.Smith @gmail.com,(892) 332 2132,3183.27,Paid
+ORD-1299,Diana Lopez,JUAN.DIAZ@OUTLOOK.COM,,4917.12,Refunded
+ORD-1300,Ana Martinez,Carlos.Gomez @outlook.com,(366) 684 3711,2140.99,Pending
+ORD-1301,Carlos Hernandez,,5552951160,4710.12,Refunded
+ORD-1302,Sofia Garcia,luisa.smith@hotmail.com,55-1039-130350,2986.9,Paid
+ORD-1303,Juan Ruiz,  Pedro.Hernandez@outlook.com ,(220) 946 3000,393.75,Paid
+ORD-1304,Maria Garcia,,Tel: 1005076889 Ext 123,3326.07,Pending
+ORD-1305,Ana Smith,  Luisa.Hernandez@yahoo.com ,7736459867,4095.94,Pending
+ORD-1306,Carlos Ruiz,carlos.perez@yahoo.com,2618591966,894.09,Pending
+ORD-1307,Maria Smith,maria.perez@agency.io,6377315262,1545.25,Refunded
+ORD-1308,Maria Ruiz,MARIA.SMITH@YAHOO.COM,+52 1 6511024780,4337.95,Pending
+ORD-1309,Beto Hernandez,ANA.MARTINEZ@YAHOO.COM,+52 1 6078554732,1673.43,Refunded
+ORD-1310,Luisa Smith,Sofia.Hernandez @empresa.mx,Tel: 8069756310 Ext 123,2602.76,Refunded
+ORD-1311,Maria Gomez,ana.martinez@hotmail.com,+52 1 9423355674,3160.51,Paid
+ORD-1312,Maria Diaz,  Pedro.Lopez@HOTMAIL.COM ,Tel: 6798216296 Ext 123,3992.56,Paid
+ORD-1313,Juan Smith,sofia.ruiz@yahoo.com,(999) 145 7339,249.39,Refunded
+ORD-1314,Maria Hernandez,sofia.lopez@gmail.com,(210) 926 8252,4434.51,Pending
+ORD-1315,Luisa Ruiz,  Pedro.Ruiz@gmail.com ,(957) 935 6764,4442.07,Paid
+ORD-1316,Sofia Lopez,luisa.lopez@agency.io,3488230319,4781.41,Pending
+ORD-1317,Luisa Ruiz,SOFIA.MARTINEZ@EMPRESA.MX,Tel: 1716042022 Ext 123,3967.89,Pending
+ORD-1318,Ana Garcia,beto.martinez@agency.io,,465.66,Pending
+ORD-1319,Diana Gomez,  Luisa.Gomez@empresa.mx ,9613336930,4079.88,Pending
+ORD-1320,Ana Martinez,Ana.Martinez @agency.io,55-2273-106667,3736.41,Refunded
+ORD-1321,Luisa Garcia,carlos.hernandez@empresa.mx,55-9974-727262,570.41,Refunded
+ORD-1322,Carlos Perez,maria.diaz@hotmail.com,(670) 544 1286,1992.81,Paid
+ORD-1323,Ana Ruiz,Diana.Ruiz @yahoo.com,+52 1 9751727250,2981.95,Paid
+ORD-1324,Diana Martinez,  Miguel.Perez@yahoo.com ,+52 1 9922725385,2000.54,Paid
+ORD-1325,Beto Ruiz,beto.martinez@yahoo.com,55-9634-386569,2345.78,Refunded
+ORD-1326,Juan Gomez,  Diana.Lopez@yahoo.com ,55-9057-191291,4418.31,Pending
+ORD-1327,Diana Gomez,JUAN.RUIZ@AGENCY.IO,6106739500,4425.39,Refunded
+ORD-1328,Luisa Diaz,carlos.martinez@empresa.mx,55-1725-712784,3564.0,Pending
+ORD-1329,Maria Ruiz,,4062196946,4157.82,Paid
+ORD-1330,Carlos Hernandez,Miguel.Perez @outlook.com,6803089416,1016.8,Paid
+ORD-1331,Maria Perez,  Juan.Martinez@outlook.com ,1625509203,4884.34,Pending
+ORD-1332,Diana Ruiz,MIGUEL.DIAZ@EMPRESA.MX,(342) 706 1066,1021.54,Pending
+ORD-1333,Diana Garcia,  Luisa.Gomez@HOTMAIL.COM ,Tel: 8872315179 Ext 123,1816.63,Pending
+ORD-1334,Luisa Ruiz,LUISA.LOPEZ@GMAIL.COM,Tel: 6655911986 Ext 123,4201.47,Refunded
+ORD-1335,Pedro Diaz,ANA.LOPEZ@GMAIL.COM,,1114.56,Refunded
+ORD-1336,Luisa Martinez,  Luisa.Smith@outlook.com ,8632043651,1604.12,Paid
+ORD-1337,Diana Gomez,  Maria.Garcia@empresa.mx ,Tel: 3562146759 Ext 123,3518.4,Pending
+ORD-1338,Sofia Smith,diana.lopez@gmail.com,(798) 804 9381,2526.52,Refunded
+ORD-1339,Ana Hernandez,  Luisa.Hernandez@yahoo.com ,,1671.04,Pending
+ORD-1340,Sofia Smith,  Miguel.Ruiz@empresa.mx ,(513) 178 3787,674.68,Refunded
+ORD-1341,Sofia Martinez,Diana.Diaz @outlook.com,Tel: 8186846559 Ext 123,1350.38,Refunded
+ORD-1342,Diana Hernandez,  Luisa.Garcia@yahoo.com ,55-2676-039612,1708.86,Refunded
+ORD-1343,Beto Ruiz,  Luisa.Garcia@yahoo.com ,7113448286,803.7,Refunded
+ORD-1344,Juan Martinez,  Carlos.Diaz@agency.io ,+52 1 7626455218,2761.77,Paid
+ORD-1345,Maria Smith,LUISA.RUIZ@YAHOO.COM,55-1763-419018,3311.72,Pending
+ORD-1346,Juan Lopez,Diana.Martinez @agency.io,,561.5,Pending
+ORD-1347,Sofia Martinez,Miguel.Lopez @gmail.com,(609) 207 4840,2575.11,Paid
+ORD-1348,Juan Garcia,MIGUEL.HERNANDEZ@GMAIL.COM,(373) 731 3880,4594.79,Refunded
+ORD-1349,Luisa Garcia,MIGUEL.GARCIA@AGENCY.IO,3824898198,4208.6,Paid
+ORD-1350,Maria Ruiz,  Carlos.Ruiz@empresa.mx ,55-5846-060969,723.43,Pending
+ORD-1351,Miguel Hernandez,MIGUEL.MARTINEZ@GMAIL.COM,+52 1 4947771419,1077.52,Refunded
+ORD-1352,Miguel Ruiz,beto.gomez@yahoo.com,,2705.82,Paid
+ORD-1353,Luisa Perez,,55-4971-421036,628.12,Pending
+ORD-1354,Carlos Hernandez,PEDRO.MARTINEZ@EMPRESA.MX,55-1529-558208,4040.87,Paid
+ORD-1355,Diana Perez,  Luisa.Ruiz@empresa.mx ,+52 1 2281414875,2349.1,Paid
+ORD-1356,Maria Ruiz,LUISA.HERNANDEZ@EMPRESA.MX,7478617101,1587.7,Refunded
+ORD-1357,Ana Garcia,carlos.martinez@empresa.mx,55-8107-578774,2371.91,Paid
+ORD-1358,Miguel Ruiz,MIGUEL.GARCIA@GMAIL.COM,8528072605,989.67,Pending
+ORD-1359,Miguel Lopez,BETO.SMITH@HOTMAIL.COM,,646.73,Paid
+ORD-1360,Diana Lopez,PEDRO.GARCIA@YAHOO.COM,2659140857,1208.49,Pending
+ORD-1361,Maria Diaz,Carlos.Diaz @yahoo.com,5142442878,3190.45,Paid
+ORD-1362,Sofia Garcia,  Pedro.Perez@HOTMAIL.COM ,(731) 540 2779,3240.39,Refunded
+ORD-1363,Pedro Perez,beto.smith@yahoo.com,,4183.15,Paid
+ORD-1364,Maria Smith,LUISA.GOMEZ@GMAIL.COM,+52 1 7958195096,2331.57,Paid
+ORD-1365,Carlos Garcia,,+52 1 8779700138,4627.94,Refunded
+ORD-1366,Sofia Hernandez,  Luisa.Ruiz@yahoo.com ,5223426603,2126.58,Paid
+ORD-1367,Diana Diaz,  Maria.Smith@HOTMAIL.COM ,Tel: 9272099575 Ext 123,1960.2,Pending
+ORD-1368,Sofia Martinez,  Miguel.Perez@gmail.com ,55-6521-225084,460.51,Paid
+ORD-1369,Sofia Diaz,  Miguel.Smith@empresa.mx ,3696552903,2055.8,Paid
+ORD-1370,Ana Perez,,Tel: 5057009534 Ext 123,833.93,Paid
+ORD-1371,Pedro Ruiz,carlos.gomez@hotmail.com,55-4995-230085,3166.73,Refunded
+ORD-1372,Beto Diaz,miguel.lopez@empresa.mx,(684) 590 8850,824.03,Paid
+ORD-1373,Beto Hernandez,diana.lopez@yahoo.com,9269655244,1250.01,Refunded
+ORD-1374,Luisa Lopez,Maria.Martinez @empresa.mx,,4825.93,Pending
+ORD-1375,Sofia Ruiz,SOFIA.HERNANDEZ@YAHOO.COM,+52 1 9271044526,1796.38,Paid
+ORD-1376,Miguel Martinez,Ana.Gomez @HOTMAIL.COM,(300) 252 8458,2260.53,Pending
+ORD-1377,Ana Smith,pedro.smith@yahoo.com,Tel: 9751078268 Ext 123,59.74,Refunded
+ORD-1378,Miguel Diaz,  Pedro.Perez@empresa.mx ,+52 1 6517475081,1789.68,Pending
+ORD-1379,Beto Smith,sofia.garcia@yahoo.com,(309) 418 3290,1431.61,Refunded
+ORD-1380,Miguel Perez,,+52 1 6928792626,3448.91,Refunded
+ORD-1381,Beto Perez,Ana.Diaz @empresa.mx,55-5864-633038,4495.44,Paid
+ORD-1382,Maria Garcia,Luisa.Lopez @gmail.com,55-2396-007640,373.98,Paid
+ORD-1383,Carlos Lopez,Ana.Smith @agency.io,+52 1 1047369841,266.7,Refunded
+ORD-1384,Miguel Smith,  Sofia.Garcia@outlook.com ,Tel: 2418576485 Ext 123,3015.37,Pending
+ORD-1385,Miguel Garcia,  Sofia.Perez@outlook.com ,,1891.01,Paid
+ORD-1386,Luisa Garcia,carlos.hernandez@agency.io,55-4572-991029,2027.6,Pending
+ORD-1387,Luisa Martinez,sofia.perez@empresa.mx,55-6466-714564,2566.8,Paid
+ORD-1388,Diana Martinez,PEDRO.DIAZ@AGENCY.IO,+52 1 9142702858,1508.02,Pending
+ORD-1389,Beto Smith,LUISA.PEREZ@YAHOO.COM,(317) 933 8841,4785.41,Paid
+ORD-1390,Juan Hernandez,ANA.GOMEZ@GMAIL.COM,Tel: 4136022616 Ext 123,1432.16,Refunded
+ORD-1391,Juan Diaz,PEDRO.PEREZ@AGENCY.IO,7369610453,847.76,Pending
+ORD-1392,Diana Garcia,beto.lopez@hotmail.com,Tel: 3421749319 Ext 123,386.05,Pending
+ORD-1393,Carlos Gomez,  Pedro.Garcia@agency.io ,+52 1 8363951895,263.88,Pending
+ORD-1394,Miguel Smith,,+52 1 2558294667,3047.2,Refunded
+ORD-1395,Luisa Ruiz,luisa.lopez@gmail.com,(136) 337 8950,985.22,Paid
+ORD-1396,Maria Hernandez,Sofia.Garcia @gmail.com,,74.09,Paid
+ORD-1397,Miguel Hernandez,  Diana.Garcia@yahoo.com ,+52 1 3307538851,1555.98,Pending
+ORD-1398,Maria Diaz,  Juan.Ruiz@outlook.com ,4014861964,2291.9,Paid
+ORD-1399,Diana Martinez,,,653.04,Refunded
+ORD-1400,Sofia Hernandez,Sofia.Ruiz @empresa.mx,Tel: 2156145259 Ext 123,486.1,Refunded
+ORD-1401,Ana Gomez,,2909763313,1716.36,Refunded
+ORD-1402,Miguel Diaz,  Carlos.Martinez@agency.io ,,1117.63,Refunded
+ORD-1403,Diana Ruiz,  Pedro.Diaz@HOTMAIL.COM ,(139) 536 2304,96.21,Paid
+ORD-1404,Juan Perez,  Luisa.Garcia@gmail.com ,+52 1 6802430537,3825.91,Pending
+ORD-1405,Ana Hernandez,Sofia.Ruiz @yahoo.com,5374623974,2212.02,Pending
+ORD-1406,Miguel Hernandez,diana.diaz@outlook.com,Tel: 9424321589 Ext 123,1298.38,Refunded
+ORD-1407,Sofia Martinez,,+52 1 8818589573,3157.23,Paid
+ORD-1408,Maria Martinez,,+52 1 7104737599,283.36,Refunded
+ORD-1409,Juan Hernandez,diana.gomez@yahoo.com,4534936150,1393.77,Refunded
+ORD-1410,Sofia Lopez,Diana.Lopez @yahoo.com,,144.88,Paid
+ORD-1411,Juan Garcia,SOFIA.GARCIA@GMAIL.COM,4651902923,1695.79,Refunded
+ORD-1412,Beto Diaz,Luisa.Lopez @HOTMAIL.COM,2174933997,2027.02,Paid
+ORD-1413,Diana Martinez,carlos.lopez@empresa.mx,+52 1 8753976209,2212.36,Pending
+ORD-1414,Diana Garcia,Juan.Ruiz @yahoo.com,Tel: 3983477867 Ext 123,4044.55,Refunded
+ORD-1415,Carlos Diaz,LUISA.HERNANDEZ@OUTLOOK.COM,55-4783-688377,3729.21,Pending
+ORD-1416,Carlos Lopez,DIANA.LOPEZ@YAHOO.COM,,3307.78,Pending
+ORD-1417,Carlos Hernandez,beto.ruiz@hotmail.com,7192579588,1451.88,Paid
+ORD-1418,Diana Garcia,Pedro.Lopez @outlook.com,+52 1 2606942834,3646.13,Paid
+ORD-1419,Pedro Gomez,Carlos.Perez @outlook.com,+52 1 6217963905,899.18,Paid
+ORD-1420,Diana Hernandez,  Maria.Lopez@HOTMAIL.COM ,,2470.14,Pending
+ORD-1421,Diana Hernandez,Carlos.Smith @yahoo.com,55-2051-959334,2344.3,Refunded
+ORD-1422,Diana Lopez,beto.smith@yahoo.com,+52 1 6666988121,3385.56,Pending
+ORD-1423,Miguel Diaz,,55-7465-794379,58.42,Pending
+ORD-1424,Pedro Ruiz,beto.smith@outlook.com,1604780876,4521.58,Refunded
+ORD-1425,Diana Gomez,  Miguel.Perez@gmail.com ,+52 1 9154095416,2118.39,Paid
+ORD-1426,Juan Lopez,  Beto.Smith@yahoo.com ,55-5887-796573,4858.68,Pending
+ORD-1427,Miguel Gomez,  Beto.Martinez@outlook.com ,(236) 134 8112,691.81,Refunded
+ORD-1428,Carlos Martinez,  Pedro.Martinez@outlook.com ,(859) 839 3309,2148.84,Pending
+ORD-1429,Pedro Diaz,JUAN.HERNANDEZ@HOTMAIL.COM,Tel: 5827786143 Ext 123,1796.44,Refunded
+ORD-1430,Diana Garcia,  Luisa.Garcia@yahoo.com ,9438330421,2975.69,Paid
+ORD-1431,Pedro Martinez,luisa.martinez@yahoo.com,+52 1 7339172237,591.34,Pending
+ORD-1432,Maria Gomez,maria.gomez@empresa.mx,(408) 101 0510,512.42,Refunded
+ORD-1433,Carlos Gomez,juan.martinez@yahoo.com,Tel: 9321186676 Ext 123,4437.65,Paid
+ORD-1434,Diana Diaz,  Diana.Smith@gmail.com ,9384262450,1613.29,Paid
+ORD-1435,Juan Perez,,+52 1 9031039726,4288.42,Paid
+ORD-1436,Juan Martinez,BETO.SMITH@AGENCY.IO,(908) 387 6873,3850.96,Pending
+ORD-1437,Ana Lopez,  Beto.Ruiz@outlook.com ,1368684807,1806.04,Pending
+ORD-1438,Maria Smith,  Luisa.Lopez@HOTMAIL.COM ,5602522104,4748.98,Pending
+ORD-1439,Diana Diaz,Sofia.Ruiz @agency.io,(530) 730 5343,2545.69,Refunded
+ORD-1440,Juan Smith,  Miguel.Hernandez@agency.io ,4795172098,57.04,Paid
+ORD-1441,Beto Smith,MIGUEL.GARCIA@YAHOO.COM,,3338.47,Refunded
+ORD-1442,Beto Hernandez,SOFIA.SMITH@AGENCY.IO,Tel: 7791511642 Ext 123,2107.41,Paid
+ORD-1443,Ana Diaz,miguel.martinez@gmail.com,Tel: 2632841953 Ext 123,3483.51,Pending
+ORD-1444,Juan Lopez,JUAN.RUIZ@GMAIL.COM,55-2607-437879,2856.06,Refunded
+ORD-1445,Luisa Smith,ana.gomez@hotmail.com,55-9999-988609,2477.75,Paid
+ORD-1446,Sofia Garcia,ana.hernandez@outlook.com,55-4827-300838,3632.24,Pending
+ORD-1447,Miguel Lopez,ANA.SMITH@OUTLOOK.COM,55-5805-138735,1065.14,Pending
+ORD-1448,Diana Ruiz,Carlos.Diaz @outlook.com,+52 1 7305961232,1664.92,Paid
+ORD-1449,Beto Hernandez,  Ana.Smith@HOTMAIL.COM ,,994.44,Pending
+ORD-1450,Beto Gomez,sofia.lopez@yahoo.com,2349471711,3999.5,Refunded
+ORD-1451,Miguel Gomez,Carlos.Perez @empresa.mx,+52 1 3699556047,2949.97,Refunded
+ORD-1452,Diana Smith,  Beto.Ruiz@gmail.com ,(541) 396 4047,1352.38,Paid
+ORD-1453,Carlos Diaz,  Carlos.Smith@gmail.com ,,479.2,Pending
+ORD-1454,Miguel Lopez,beto.hernandez@hotmail.com,,4578.37,Refunded
+ORD-1455,Ana Ruiz,Ana.Diaz @empresa.mx,(920) 585 5668,3173.88,Paid
+ORD-1456,Miguel Martinez,beto.diaz@outlook.com,Tel: 9775611664 Ext 123,806.95,Paid
+ORD-1457,Pedro Martinez,Miguel.Ruiz @HOTMAIL.COM,,3619.25,Pending
+ORD-1458,Ana Gomez,  Ana.Ruiz@gmail.com ,4354663336,2760.54,Refunded
+ORD-1459,Miguel Garcia,  Maria.Smith@agency.io ,7873771088,948.99,Refunded
+ORD-1460,Miguel Perez,Luisa.Garcia @HOTMAIL.COM,Tel: 9632972682 Ext 123,270.44,Refunded
+ORD-1461,Diana Lopez,MARIA.DIAZ@EMPRESA.MX,,2091.36,Pending
+ORD-1462,Juan Smith,  Ana.Hernandez@empresa.mx ,,3974.09,Paid
+ORD-1463,Juan Perez,  Miguel.Gomez@empresa.mx ,(100) 666 2040,2259.73,Pending
+ORD-1464,Sofia Martinez,MIGUEL.LOPEZ@GMAIL.COM,+52 1 1807265495,2391.92,Paid
+ORD-1465,Sofia Gomez,,+52 1 9496400669,4545.99,Paid
+ORD-1466,Carlos Perez,MARIA.HERNANDEZ@GMAIL.COM,55-8878-047538,1914.69,Refunded
+ORD-1467,Ana Lopez,DIANA.DIAZ@GMAIL.COM,55-6226-730388,2995.39,Refunded
+ORD-1468,Sofia Lopez,carlos.ruiz@empresa.mx,(353) 918 4588,3020.86,Refunded
+ORD-1469,Miguel Gomez,Beto.Diaz @yahoo.com,55-7968-493677,266.48,Refunded
+ORD-1470,Diana Diaz,  Maria.Lopez@yahoo.com ,(223) 736 7247,4961.42,Pending
+ORD-1471,Diana Perez,SOFIA.PEREZ@OUTLOOK.COM,Tel: 6886995340 Ext 123,1999.1,Pending
+ORD-1472,Pedro Lopez,sofia.diaz@empresa.mx,55-8348-198870,2872.93,Refunded
+ORD-1473,Diana Garcia,MARIA.GARCIA@EMPRESA.MX,3989630288,4630.14,Refunded
+ORD-1474,Ana Hernandez,PEDRO.RUIZ@YAHOO.COM,+52 1 4015385256,1487.77,Refunded
+ORD-1475,Maria Lopez,,,335.84,Pending
+ORD-1476,Juan Hernandez,,+52 1 2536703326,1314.01,Refunded
+ORD-1477,Pedro Garcia,luisa.gomez@agency.io,,4492.55,Pending
+ORD-1478,Ana Gomez,sofia.ruiz@yahoo.com,+52 1 8721958090,2817.62,Pending
+ORD-1479,Ana Smith,diana.lopez@gmail.com,7065109495,3164.21,Refunded
+ORD-1480,Sofia Smith,diana.perez@hotmail.com,55-4948-429124,4570.07,Refunded
+ORD-1481,Beto Gomez,Ana.Smith @empresa.mx,Tel: 2953530876 Ext 123,2990.29,Paid
+ORD-1482,Beto Perez,ANA.MARTINEZ@OUTLOOK.COM,5423304955,826.43,Refunded
+ORD-1483,Ana Gomez,,Tel: 8068053929 Ext 123,3979.94,Paid
+ORD-1484,Miguel Gomez,DIANA.DIAZ@EMPRESA.MX,8667412993,4045.38,Refunded
+ORD-1485,Ana Ruiz,BETO.GARCIA@OUTLOOK.COM,+52 1 3031807408,3046.65,Paid
+ORD-1486,Miguel Gomez,Diana.Lopez @HOTMAIL.COM,+52 1 4394921309,3316.46,Refunded
+ORD-1487,Diana Lopez,Luisa.Lopez @empresa.mx,(662) 244 6511,1917.48,Refunded
+ORD-1488,Ana Garcia,SOFIA.SMITH@AGENCY.IO,(381) 783 1378,812.54,Pending
+ORD-1489,Diana Diaz,Juan.Perez @yahoo.com,55-4374-278406,3050.72,Refunded
+ORD-1490,Carlos Smith,Juan.Diaz @empresa.mx,+52 1 5869315288,4909.66,Refunded
+ORD-1491,Ana Garcia,sofia.martinez@agency.io,Tel: 1531146134 Ext 123,1299.29,Paid
+ORD-1492,Juan Martinez,Beto.Martinez @gmail.com,5326672733,623.99,Paid
+ORD-1493,Beto Ruiz,ana.ruiz@gmail.com,+52 1 1395048664,2955.17,Pending
+ORD-1494,Carlos Garcia,miguel.martinez@empresa.mx,(341) 395 0677,1742.72,Pending
+ORD-1495,Juan Martinez,diana.hernandez@agency.io,(344) 162 4606,1611.63,Refunded
+ORD-1496,Miguel Martinez,Miguel.Gomez @agency.io,(278) 784 1401,243.03,Refunded
+ORD-1497,Juan Garcia,  Juan.Martinez@yahoo.com ,+52 1 8282662404,2611.84,Pending
+ORD-1498,Carlos Diaz,sofia.smith@agency.io,55-9274-585532,3614.11,Refunded
+ORD-1499,Pedro Hernandez,Ana.Ruiz @HOTMAIL.COM,4967793744,1536.62,Refunded
+ORD-1500,Juan Lopez,diana.ruiz@empresa.mx,5577092565,1828.34,Pending
+ORD-1501,Ana Martinez,BETO.RUIZ@HOTMAIL.COM,+52 1 8902593775,3380.84,Pending
+ORD-1502,Beto Hernandez,PEDRO.HERNANDEZ@EMPRESA.MX,(238) 791 3052,4528.84,Refunded
+ORD-1503,Diana Smith,beto.garcia@gmail.com,Tel: 3492535625 Ext 123,3998.8,Pending
+ORD-1504,Pedro Martinez,beto.diaz@yahoo.com,55-8469-131294,2028.77,Paid
+ORD-1505,Miguel Martinez,Miguel.Smith @outlook.com,55-1367-946268,989.62,Paid
+ORD-1506,Luisa Martinez,  Maria.Garcia@outlook.com ,,4168.43,Paid
+ORD-1507,Ana Perez,  Miguel.Smith@yahoo.com ,Tel: 8007706190 Ext 123,2992.15,Paid
+ORD-1508,Carlos Martinez,luisa.gomez@gmail.com,55-1314-144032,1558.17,Refunded
+ORD-1509,Miguel Perez,Juan.Ruiz @outlook.com,,4184.07,Refunded
+ORD-1510,Sofia Martinez,luisa.hernandez@empresa.mx,,3200.58,Paid
+ORD-1511,Miguel Diaz,ANA.DIAZ@EMPRESA.MX,Tel: 4388091347 Ext 123,3459.73,Pending
+ORD-1512,Ana Hernandez,BETO.PEREZ@EMPRESA.MX,(460) 821 7013,851.19,Pending
+ORD-1513,Diana Perez,  Miguel.Perez@outlook.com ,Tel: 4978911603 Ext 123,1691.76,Pending
+ORD-1514,Carlos Perez,  Miguel.Lopez@yahoo.com ,+52 1 2893827347,3830.43,Pending
+ORD-1515,Miguel Ruiz,CARLOS.LOPEZ@AGENCY.IO,55-1153-978176,1311.77,Refunded
+ORD-1516,Carlos Diaz,JUAN.RUIZ@GMAIL.COM,,2848.1,Pending
+ORD-1517,Luisa Hernandez,,+52 1 8046836277,132.53,Refunded
+ORD-1518,Carlos Perez,Beto.Hernandez @yahoo.com,55-5609-633250,2182.3,Refunded
+ORD-1519,Beto Lopez,Maria.Smith @agency.io,+52 1 9911958257,2492.76,Pending
+ORD-1520,Ana Garcia,  Ana.Martinez@agency.io ,55-9954-899607,456.94,Paid
+ORD-1521,Sofia Smith,ANA.SMITH@EMPRESA.MX,Tel: 1776236463 Ext 123,4605.66,Paid
+ORD-1522,Carlos Garcia,carlos.smith@agency.io,4221421201,3153.33,Paid
+ORD-1523,Beto Lopez,  Juan.Smith@gmail.com ,55-5291-966646,2151.92,Refunded
+ORD-1524,Diana Garcia,,6354693464,2009.04,Pending
+ORD-1525,Miguel Martinez,CARLOS.GARCIA@AGENCY.IO,(393) 509 2479,1330.88,Pending
+ORD-1526,Maria Garcia,luisa.smith@empresa.mx,,4097.86,Pending
+ORD-1527,Beto Lopez,,(734) 923 1218,1386.53,Pending
+ORD-1528,Diana Ruiz,MIGUEL.SMITH@GMAIL.COM,55-6046-018975,2250.4,Pending
+ORD-1529,Carlos Hernandez,Carlos.Perez @outlook.com,+52 1 4389484234,1370.06,Pending
+ORD-1530,Ana Ruiz,Miguel.Hernandez @yahoo.com,8931312366,601.08,Paid
+ORD-1531,Sofia Gomez,luisa.lopez@outlook.com,+52 1 9496249278,4615.44,Pending
+ORD-1532,Carlos Garcia,  Pedro.Perez@gmail.com ,(809) 985 9169,573.8,Paid
+ORD-1533,Juan Ruiz,BETO.GOMEZ@EMPRESA.MX,+52 1 7779335717,2255.05,Paid
+ORD-1534,Pedro Martinez,carlos.perez@hotmail.com,(150) 217 7989,2263.89,Paid
+ORD-1535,Luisa Smith,  Carlos.Lopez@outlook.com ,,1694.34,Paid
+ORD-1536,Miguel Hernandez,,+52 1 5317733284,3758.33,Paid
+ORD-1537,Juan Garcia,Ana.Ruiz @yahoo.com,Tel: 5753288114 Ext 123,402.62,Refunded
+ORD-1538,Maria Diaz,DIANA.GARCIA@AGENCY.IO,Tel: 3307710415 Ext 123,3571.93,Refunded
+ORD-1539,Luisa Ruiz,MARIA.MARTINEZ@OUTLOOK.COM,(130) 878 9591,684.13,Paid
+ORD-1540,Juan Perez,  Diana.Ruiz@agency.io ,55-2988-739334,1147.95,Paid
+ORD-1541,Ana Perez,  Sofia.Lopez@gmail.com ,8086657446,4343.82,Refunded
+ORD-1542,Luisa Lopez,  Miguel.Perez@HOTMAIL.COM ,(582) 175 8789,4219.84,Paid
+ORD-1543,Carlos Perez,,Tel: 4743801383 Ext 123,1343.36,Pending
+ORD-1544,Carlos Perez,ANA.GARCIA@YAHOO.COM,(228) 219 9929,3682.45,Pending
+ORD-1545,Diana Perez,CARLOS.LOPEZ@HOTMAIL.COM,55-7103-609253,1892.95,Pending
+ORD-1546,Sofia Lopez,  Beto.Diaz@gmail.com ,Tel: 3615623714 Ext 123,4817.54,Paid
+ORD-1547,Miguel Smith,,1538133087,2037.21,Pending
+ORD-1548,Ana Lopez,Miguel.Gomez @HOTMAIL.COM,4726441165,564.7,Pending
+ORD-1549,Pedro Diaz,juan.ruiz@outlook.com,Tel: 2429458852 Ext 123,1120.83,Refunded
+ORD-1550,Miguel Ruiz,Juan.Hernandez @HOTMAIL.COM,8845659052,300.27,Pending
+ORD-1551,Pedro Ruiz,juan.martinez@empresa.mx,+52 1 5631095583,2082.74,Paid
+ORD-1552,Diana Gomez,miguel.lopez@gmail.com,Tel: 5202312037 Ext 123,229.23,Paid
+ORD-1553,Diana Ruiz,Pedro.Perez @empresa.mx,+52 1 8309300356,1244.03,Refunded
+ORD-1554,Carlos Garcia,,Tel: 8823224280 Ext 123,1988.54,Pending
+ORD-1555,Sofia Garcia,Luisa.Ruiz @yahoo.com,+52 1 6728132755,3023.49,Paid
+ORD-1556,Diana Martinez,LUISA.LOPEZ@HOTMAIL.COM,+52 1 8823344954,855.29,Refunded
+ORD-1557,Miguel Diaz,  Beto.Ruiz@gmail.com ,(970) 303 3549,1668.82,Refunded
+ORD-1558,Miguel Gomez,  Luisa.Lopez@gmail.com ,+52 1 7772376996,2329.2,Pending
+ORD-1559,Luisa Martinez,  Pedro.Ruiz@empresa.mx ,55-4458-027091,4858.54,Pending
+ORD-1560,Maria Martinez,,55-9412-405231,1274.93,Refunded
+ORD-1561,Maria Martinez,  Luisa.Smith@HOTMAIL.COM ,8679812351,889.75,Paid
+ORD-1562,Carlos Garcia,pedro.diaz@empresa.mx,Tel: 3267891357 Ext 123,2475.44,Refunded
+ORD-1563,Beto Garcia,,+52 1 3391189603,2136.85,Refunded
+ORD-1564,Beto Perez,  Luisa.Perez@HOTMAIL.COM ,(506) 922 1239,2870.27,Pending
+ORD-1565,Luisa Diaz,,55-3368-806868,3997.84,Paid
+ORD-1566,Maria Hernandez,,(587) 971 1397,4339.4,Refunded
+ORD-1567,Juan Garcia,  Beto.Lopez@yahoo.com ,+52 1 2176429879,1066.54,Paid
+ORD-1568,Diana Lopez,Juan.Martinez @agency.io,,1794.14,Paid
+ORD-1569,Maria Lopez,Juan.Perez @gmail.com,Tel: 7246897828 Ext 123,2304.96,Pending
+ORD-1570,Diana Martinez,,Tel: 7116169389 Ext 123,3884.92,Paid
+ORD-1571,Maria Hernandez,,5937076421,2567.87,Pending
+ORD-1572,Pedro Smith,beto.lopez@agency.io,55-5325-349915,582.93,Paid
+ORD-1573,Miguel Lopez,,,4533.76,Pending
+ORD-1574,Juan Smith,JUAN.GOMEZ@OUTLOOK.COM,(918) 601 2079,2808.6,Refunded
+ORD-1575,Sofia Smith,beto.gomez@gmail.com,+52 1 7257666588,2806.98,Paid
+ORD-1576,Maria Smith,sofia.smith@hotmail.com,Tel: 3298532536 Ext 123,4797.68,Refunded
+ORD-1577,Beto Lopez,juan.hernandez@hotmail.com,55-3592-543971,1777.28,Paid
+ORD-1578,Luisa Ruiz,  Luisa.Ruiz@agency.io ,4982384562,2495.07,Pending
+ORD-1579,Sofia Hernandez,beto.martinez@gmail.com,(411) 493 2602,2996.36,Paid
+ORD-1580,Maria Garcia,beto.garcia@agency.io,Tel: 7002951793 Ext 123,819.9,Pending
+ORD-1581,Ana Gomez,carlos.diaz@hotmail.com,4486443410,267.48,Pending
+ORD-1582,Ana Martinez,MARIA.GOMEZ@YAHOO.COM,+52 1 9913400800,3861.95,Paid
+ORD-1583,Pedro Gomez,SOFIA.GOMEZ@HOTMAIL.COM,55-7214-106449,4412.97,Pending
+ORD-1584,Sofia Hernandez,Maria.Lopez @gmail.com,(278) 658 6434,743.7,Pending
+ORD-1585,Juan Diaz,  Luisa.Garcia@HOTMAIL.COM ,5244302527,4828.99,Pending
+ORD-1586,Maria Smith,DIANA.SMITH@AGENCY.IO,55-8274-478189,839.26,Pending
+ORD-1587,Miguel Ruiz,Juan.Martinez @empresa.mx,(860) 833 9905,2430.77,Pending
+ORD-1588,Carlos Lopez,PEDRO.MARTINEZ@OUTLOOK.COM,3445811254,1655.9,Refunded
+ORD-1589,Luisa Martinez,  Luisa.Smith@outlook.com ,Tel: 3251716500 Ext 123,2637.58,Paid
+ORD-1590,Miguel Perez,Miguel.Garcia @gmail.com,(132) 243 0019,2209.87,Paid
+ORD-1591,Diana Smith,beto.garcia@yahoo.com,55-9752-219554,2314.51,Paid
+ORD-1592,Luisa Lopez,Juan.Smith @yahoo.com,55-6725-408520,4627.58,Pending
+ORD-1593,Beto Garcia,sofia.ruiz@agency.io,+52 1 9729727618,370.06,Paid
+ORD-1594,Carlos Martinez,beto.smith@gmail.com,(746) 731 8894,4551.86,Paid
+ORD-1595,Luisa Lopez,,55-6496-973296,156.22,Pending
+ORD-1596,Pedro Ruiz,,55-6783-188027,2219.6,Refunded
+ORD-1597,Maria Hernandez,JUAN.GARCIA@YAHOO.COM,Tel: 6754032871 Ext 123,3553.54,Paid
+ORD-1598,Carlos Hernandez,Miguel.Lopez @agency.io,Tel: 4641128893 Ext 123,2633.84,Refunded
+ORD-1599,Juan Perez,LUISA.GOMEZ@HOTMAIL.COM,,1277.14,Paid
+ORD-1600,Maria Diaz,,1037648053,2391.25,Refunded
+ORD-1601,Maria Martinez,,55-5326-151534,1253.54,Paid
+ORD-1602,Carlos Lopez,,55-6064-379820,2175.14,Refunded
+ORD-1603,Luisa Ruiz,  Diana.Perez@gmail.com ,55-5812-802188,325.58,Pending
+ORD-1604,Beto Garcia,Beto.Perez @HOTMAIL.COM,55-2848-977488,3634.77,Paid
+ORD-1605,Maria Diaz,JUAN.PEREZ@YAHOO.COM,+52 1 1077148690,2861.0,Refunded
+ORD-1606,Beto Hernandez,ana.hernandez@agency.io,+52 1 1494681682,2527.1,Pending
+ORD-1607,Carlos Garcia,ANA.MARTINEZ@HOTMAIL.COM,5256108055,4616.74,Refunded
+ORD-1608,Luisa Martinez,Pedro.Lopez @agency.io,(113) 844 8662,2599.29,Refunded
+ORD-1609,Pedro Martinez,BETO.HERNANDEZ@EMPRESA.MX,(629) 384 7508,3939.42,Pending
+ORD-1610,Luisa Martinez,MARIA.SMITH@YAHOO.COM,+52 1 6329298442,3324.63,Pending
+ORD-1611,Diana Perez,LUISA.PEREZ@YAHOO.COM,8111554866,4597.0,Pending
+ORD-1612,Juan Lopez,miguel.martinez@yahoo.com,55-4318-686380,2320.42,Paid
+ORD-1613,Pedro Hernandez,  Carlos.Diaz@HOTMAIL.COM ,(472) 245 9854,2239.65,Paid
+ORD-1614,Pedro Gomez,  Maria.Gomez@yahoo.com ,(502) 413 1919,4472.47,Refunded
+ORD-1615,Maria Martinez,JUAN.HERNANDEZ@GMAIL.COM,4912827450,1291.38,Pending
+ORD-1616,Diana Smith,  Sofia.Ruiz@empresa.mx ,2014508224,1743.1,Refunded
+ORD-1617,Ana Smith,sofia.gomez@empresa.mx,3901669208,4005.58,Paid
+ORD-1618,Ana Garcia,luisa.martinez@yahoo.com,+52 1 8084317137,1800.94,Pending
+ORD-1619,Diana Ruiz,carlos.diaz@hotmail.com,+52 1 5319393780,1264.22,Pending
+ORD-1620,Diana Lopez,Miguel.Lopez @HOTMAIL.COM,(509) 754 4103,4593.37,Refunded
+ORD-1621,Beto Garcia,Sofia.Lopez @HOTMAIL.COM,55-8241-902883,4935.21,Pending
+ORD-1622,Sofia Perez,Juan.Martinez @HOTMAIL.COM,+52 1 1237478369,4797.21,Paid
+ORD-1623,Ana Ruiz,ana.perez@yahoo.com,1819069640,2678.49,Pending
+ORD-1624,Juan Garcia,BETO.RUIZ@OUTLOOK.COM,Tel: 9331636147 Ext 123,2979.04,Paid
+ORD-1625,Juan Hernandez,Juan.Garcia @HOTMAIL.COM,Tel: 2977939584 Ext 123,3576.91,Pending
+ORD-1626,Miguel Garcia,MIGUEL.RUIZ@OUTLOOK.COM,2975075905,3965.29,Pending
+ORD-1627,Pedro Martinez,ANA.HERNANDEZ@AGENCY.IO,(602) 708 8148,4284.61,Refunded
+ORD-1628,Juan Smith,BETO.DIAZ@HOTMAIL.COM,7418589684,681.01,Refunded
+ORD-1629,Juan Smith,,4892456817,2421.68,Refunded
+ORD-1630,Beto Martinez,LUISA.PEREZ@YAHOO.COM,8078463827,4461.83,Pending
+ORD-1631,Ana Lopez,  Beto.Diaz@gmail.com ,55-6648-484675,586.62,Pending
+ORD-1632,Luisa Smith,Beto.Martinez @outlook.com,55-4698-789792,777.17,Refunded
+ORD-1633,Sofia Martinez,Ana.Lopez @outlook.com,+52 1 8233677852,3176.06,Paid
+ORD-1634,Maria Lopez,JUAN.LOPEZ@EMPRESA.MX,6987099784,2568.75,Refunded
+ORD-1635,Luisa Perez,Luisa.Diaz @yahoo.com,Tel: 1424604146 Ext 123,4374.37,Refunded
+ORD-1636,Miguel Ruiz,Miguel.Smith @yahoo.com,6167247610,3473.44,Paid
+ORD-1637,Diana Ruiz,PEDRO.HERNANDEZ@YAHOO.COM,55-6065-202031,2842.54,Pending
+ORD-1638,Diana Gomez,,1922467215,560.72,Refunded
+ORD-1639,Beto Martinez,miguel.perez@gmail.com,55-3372-624486,1789.37,Paid
+ORD-1640,Pedro Smith,MIGUEL.PEREZ@EMPRESA.MX,55-2356-679273,3099.01,Paid
+ORD-1641,Sofia Perez,  Miguel.Garcia@empresa.mx ,Tel: 6977567130 Ext 123,2745.31,Paid
+ORD-1642,Pedro Gomez,luisa.ruiz@outlook.com,8678955159,4361.44,Paid
+ORD-1643,Juan Perez,  Maria.Hernandez@outlook.com ,3791697318,1705.18,Refunded
+ORD-1644,Juan Gomez,Maria.Martinez @agency.io,+52 1 1955284547,4582.17,Pending
+ORD-1645,Pedro Garcia,Maria.Perez @empresa.mx,(711) 571 7810,4382.17,Refunded
+ORD-1646,Maria Hernandez,maria.lopez@yahoo.com,(827) 468 3862,791.0,Refunded
+ORD-1647,Carlos Smith,beto.perez@agency.io,+52 1 9595954546,3384.77,Paid
+ORD-1648,Carlos Martinez,  Sofia.Perez@agency.io ,+52 1 5746837709,208.68,Pending
+ORD-1649,Juan Gomez,,5319172976,3614.81,Paid
+ORD-1650,Diana Perez,Ana.Diaz @yahoo.com,,164.52,Paid
+ORD-1651,Sofia Hernandez,SOFIA.GOMEZ@AGENCY.IO,55-6904-738473,4622.97,Paid
+ORD-1652,Miguel Diaz,Ana.Smith @gmail.com,+52 1 9507094916,4665.41,Paid
+ORD-1653,Diana Ruiz,Maria.Lopez @yahoo.com,Tel: 1243373580 Ext 123,2240.92,Paid
+ORD-1654,Miguel Garcia,Maria.Smith @empresa.mx,+52 1 4827649175,3868.48,Refunded
+ORD-1655,Miguel Gomez,,+52 1 3273051388,4842.25,Refunded
+ORD-1656,Maria Smith,LUISA.RUIZ@YAHOO.COM,55-1129-298484,4301.69,Paid
+ORD-1657,Ana Martinez,Miguel.Hernandez @empresa.mx,Tel: 9343371641 Ext 123,2372.17,Pending
+ORD-1658,Sofia Hernandez,juan.garcia@empresa.mx,55-9602-881394,2773.51,Refunded
+ORD-1659,Juan Martinez,  Diana.Hernandez@HOTMAIL.COM ,+52 1 8617052328,1797.04,Refunded
+ORD-1660,Beto Hernandez,juan.martinez@agency.io,Tel: 6907116866 Ext 123,1775.74,Paid
+ORD-1661,Luisa Perez,CARLOS.DIAZ@YAHOO.COM,(945) 305 0161,2833.0,Refunded
+ORD-1662,Ana Perez,  Sofia.Martinez@empresa.mx ,(421) 752 0609,2136.93,Paid
+ORD-1663,Carlos Lopez,beto.lopez@gmail.com,55-7113-790243,3905.02,Paid
+ORD-1664,Miguel Lopez,Luisa.Gomez @outlook.com,4431366763,3104.57,Pending
+ORD-1665,Miguel Diaz,,+52 1 7205158989,2885.08,Pending
+ORD-1666,Juan Gomez,CARLOS.GARCIA@EMPRESA.MX,55-8678-243467,4399.95,Refunded
+ORD-1667,Luisa Lopez,Beto.Hernandez @empresa.mx,Tel: 8342844826 Ext 123,3544.84,Refunded
+ORD-1668,Luisa Martinez,juan.smith@outlook.com,Tel: 5953998490 Ext 123,1612.99,Paid
+ORD-1669,Miguel Perez,  Beto.Gomez@empresa.mx ,7879459500,191.87,Paid
+ORD-1670,Pedro Garcia,JUAN.DIAZ@AGENCY.IO,+52 1 8126373127,4008.37,Paid
+ORD-1671,Maria Martinez,SOFIA.GOMEZ@GMAIL.COM,9712645032,2162.4,Refunded
+ORD-1672,Beto Gomez,,Tel: 1935882550 Ext 123,3355.06,Paid
+ORD-1673,Ana Hernandez,  Luisa.Lopez@HOTMAIL.COM ,(301) 991 8318,2783.97,Refunded
+ORD-1674,Carlos Diaz,Beto.Lopez @agency.io,Tel: 1134450516 Ext 123,4733.01,Refunded
+ORD-1675,Sofia Ruiz,juan.ruiz@agency.io,,2951.82,Paid
+ORD-1676,Luisa Garcia,DIANA.LOPEZ@HOTMAIL.COM,5036282695,4038.18,Pending
+ORD-1677,Diana Perez,  Pedro.Martinez@yahoo.com ,55-2795-676873,4327.9,Pending
+ORD-1678,Carlos Hernandez,Pedro.Lopez @outlook.com,2951033869,2354.81,Refunded
+ORD-1679,Carlos Garcia,  Ana.Lopez@empresa.mx ,2474941947,4776.4,Paid
+ORD-1680,Sofia Lopez,Ana.Martinez @agency.io,55-4566-955147,255.99,Refunded
+ORD-1681,Luisa Perez,pedro.perez@gmail.com,(721) 323 5422,2952.09,Refunded
+ORD-1682,Maria Perez,Miguel.Gomez @empresa.mx,1838835282,1091.05,Refunded
+ORD-1683,Maria Martinez,JUAN.GOMEZ@YAHOO.COM,6653478957,1581.28,Refunded
+ORD-1684,Luisa Perez,,Tel: 1005133153 Ext 123,730.74,Refunded
+ORD-1685,Beto Smith,DIANA.PEREZ@EMPRESA.MX,55-6547-720137,854.11,Refunded
+ORD-1686,Juan Perez,Ana.Diaz @gmail.com,Tel: 7031933041 Ext 123,1441.43,Paid
+ORD-1687,Juan Garcia,carlos.ruiz@outlook.com,+52 1 5121624479,4704.75,Refunded
+ORD-1688,Carlos Martinez,  Luisa.Ruiz@outlook.com ,+52 1 2595044361,97.53,Paid
+ORD-1689,Miguel Lopez,diana.garcia@hotmail.com,(949) 600 0765,2129.57,Refunded
+ORD-1690,Miguel Perez,Miguel.Lopez @outlook.com,(726) 499 2634,4292.09,Paid
+ORD-1691,Juan Diaz,  Luisa.Gomez@empresa.mx ,(244) 324 2787,4567.04,Pending
+ORD-1692,Diana Garcia,maria.martinez@yahoo.com,55-4444-576678,580.82,Paid
+ORD-1693,Diana Perez,miguel.diaz@outlook.com,Tel: 6216060911 Ext 123,4270.71,Refunded
+ORD-1694,Diana Gomez,  Carlos.Gomez@gmail.com ,2709655195,1506.64,Paid
+ORD-1695,Diana Martinez,,(306) 179 7837,895.62,Refunded
+ORD-1696,Juan Diaz,carlos.martinez@gmail.com,55-4555-646826,1421.19,Refunded
+ORD-1697,Ana Hernandez,sofia.lopez@yahoo.com,(211) 627 4661,3433.89,Refunded
+ORD-1698,Carlos Ruiz,,(535) 275 3031,2632.64,Refunded
+ORD-1699,Beto Gomez,  Diana.Ruiz@outlook.com ,+52 1 6431511810,3573.37,Pending
+ORD-1700,Luisa Perez,Beto.Martinez @HOTMAIL.COM,+52 1 3774149694,3613.02,Paid
+ORD-1701,Juan Gomez,BETO.PEREZ@OUTLOOK.COM,Tel: 2661150379 Ext 123,3347.36,Pending
+ORD-1702,Sofia Garcia,Miguel.Lopez @yahoo.com,+52 1 1774953950,4997.12,Pending
+ORD-1703,Carlos Gomez,  Carlos.Gomez@HOTMAIL.COM ,6084188476,1688.27,Paid
+ORD-1704,Carlos Perez,carlos.smith@yahoo.com,3831057043,3349.76,Paid
+ORD-1705,Carlos Martinez,PEDRO.MARTINEZ@YAHOO.COM,Tel: 2956173795 Ext 123,1163.26,Refunded
+ORD-1706,Pedro Perez,beto.lopez@yahoo.com,(551) 329 5151,2108.29,Paid
+ORD-1707,Luisa Ruiz,SOFIA.RUIZ@EMPRESA.MX,55-1061-774944,4127.32,Paid
+ORD-1708,Carlos Hernandez,  Sofia.Perez@agency.io ,+52 1 7177293798,4530.89,Paid
+ORD-1709,Luisa Smith,  Sofia.Garcia@agency.io ,Tel: 9469746389 Ext 123,1164.7,Paid
+ORD-1710,Carlos Ruiz,  Pedro.Lopez@yahoo.com ,(694) 289 6095,4006.04,Refunded
+ORD-1711,Maria Gomez,Maria.Garcia @yahoo.com,,580.85,Paid
+ORD-1712,Pedro Diaz,  Diana.Hernandez@HOTMAIL.COM ,+52 1 5008602701,2973.5,Pending
+ORD-1713,Sofia Smith,,+52 1 6908718279,1448.04,Pending
+ORD-1714,Beto Ruiz,Diana.Smith @yahoo.com,Tel: 8435522298 Ext 123,4340.59,Refunded
+ORD-1715,Beto Hernandez,LUISA.HERNANDEZ@HOTMAIL.COM,55-1941-045343,4405.65,Paid
+ORD-1716,Beto Gomez,sofia.gomez@hotmail.com,Tel: 9499471660 Ext 123,724.52,Pending
+ORD-1717,Diana Martinez,beto.martinez@agency.io,Tel: 8273073747 Ext 123,806.89,Paid
+ORD-1718,Miguel Gomez,juan.martinez@outlook.com,Tel: 8548119503 Ext 123,4583.33,Paid
+ORD-1719,Ana Martinez,Luisa.Smith @empresa.mx,Tel: 8486357954 Ext 123,2057.27,Refunded
+ORD-1720,Pedro Hernandez,  Pedro.Diaz@agency.io ,Tel: 3478630874 Ext 123,3043.22,Refunded
+ORD-1721,Ana Smith,  Carlos.Martinez@gmail.com ,+52 1 8086699446,3737.9,Refunded
+ORD-1722,Pedro Hernandez,  Sofia.Hernandez@empresa.mx ,Tel: 3506943760 Ext 123,3060.28,Refunded
+ORD-1723,Pedro Gomez,ANA.MARTINEZ@AGENCY.IO,6134309228,1928.8,Refunded
+ORD-1724,Miguel Lopez,Ana.Gomez @gmail.com,(756) 485 1084,2858.41,Refunded
+ORD-1725,Ana Hernandez,BETO.MARTINEZ@YAHOO.COM,9708951344,1084.24,Refunded
+ORD-1726,Miguel Garcia,  Diana.Hernandez@empresa.mx ,+52 1 1527339470,231.2,Paid
+ORD-1727,Diana Lopez,pedro.diaz@hotmail.com,55-1813-335921,534.45,Pending
+ORD-1728,Pedro Gomez,  Sofia.Garcia@HOTMAIL.COM ,+52 1 7119847584,1589.66,Paid
+ORD-1729,Beto Gomez,ana.martinez@agency.io,1839788315,371.71,Paid
+ORD-1730,Ana Hernandez,maria.ruiz@outlook.com,9622644031,1279.02,Refunded
+ORD-1731,Beto Perez,  Sofia.Hernandez@HOTMAIL.COM ,(309) 564 7260,3666.49,Refunded
+ORD-1732,Ana Gomez,MARIA.LOPEZ@HOTMAIL.COM,Tel: 3649007109 Ext 123,3162.05,Pending
+ORD-1733,Sofia Smith,beto.garcia@yahoo.com,Tel: 2653388710 Ext 123,3121.84,Refunded
+ORD-1734,Diana Martinez,miguel.martinez@empresa.mx,55-9336-267539,2175.29,Refunded
+ORD-1735,Pedro Garcia,Juan.Diaz @outlook.com,+52 1 3996574140,1494.05,Paid
+ORD-1736,Miguel Perez,  Juan.Smith@yahoo.com ,+52 1 5884178661,2457.72,Pending
+ORD-1737,Luisa Garcia,SOFIA.PEREZ@HOTMAIL.COM,+52 1 4975555042,1484.85,Paid
+ORD-1738,Beto Ruiz,diana.lopez@outlook.com,55-5067-270887,1415.09,Refunded
+ORD-1739,Diana Lopez,  Juan.Smith@agency.io ,55-3637-154927,4523.93,Pending
+ORD-1740,Juan Ruiz,juan.ruiz@empresa.mx,+52 1 9435186786,4133.63,Paid
+ORD-1741,Juan Garcia,  Diana.Lopez@HOTMAIL.COM ,8238743688,2912.42,Refunded
+ORD-1742,Miguel Hernandez,,55-5751-466350,2966.44,Refunded
+ORD-1743,Luisa Garcia,miguel.hernandez@gmail.com,(422) 674 6155,4954.99,Pending
+ORD-1744,Sofia Gomez,  Sofia.Diaz@agency.io ,(860) 117 7587,361.59,Paid
+ORD-1745,Carlos Martinez,  Ana.Hernandez@outlook.com ,4835176030,421.71,Paid
+ORD-1746,Juan Diaz,  Carlos.Martinez@empresa.mx ,55-9443-731143,349.12,Pending
+ORD-1747,Ana Garcia,  Juan.Ruiz@gmail.com ,+52 1 7221191015,1412.63,Refunded
+ORD-1748,Luisa Diaz,Pedro.Perez @gmail.com,(790) 116 8321,1584.92,Pending
+ORD-1749,Pedro Garcia,Juan.Hernandez @empresa.mx,9652161803,4893.98,Refunded
+ORD-1750,Beto Garcia,ANA.MARTINEZ@YAHOO.COM,,4605.99,Paid
+ORD-1751,Diana Martinez,ana.martinez@yahoo.com,2306594299,3443.39,Pending
+ORD-1752,Beto Garcia,,55-7343-958890,1984.36,Pending
+ORD-1753,Maria Lopez,,Tel: 8889753476 Ext 123,2282.3,Refunded
+ORD-1754,Maria Martinez,ana.garcia@empresa.mx,Tel: 6541042628 Ext 123,3041.16,Paid
+ORD-1755,Maria Lopez,ana.diaz@empresa.mx,55-7017-221941,2113.0,Refunded
+ORD-1756,Ana Hernandez,juan.gomez@agency.io,+52 1 7206359206,1966.42,Paid
+ORD-1757,Diana Hernandez,Miguel.Gomez @empresa.mx,55-7969-602151,1098.14,Pending
+ORD-1758,Sofia Smith,Ana.Garcia @agency.io,Tel: 6358290320 Ext 123,4286.47,Refunded
+ORD-1759,Juan Gomez,  Diana.Garcia@yahoo.com ,55-8346-597292,682.83,Paid
+ORD-1760,Beto Hernandez,BETO.HERNANDEZ@AGENCY.IO,(276) 265 3075,2438.65,Paid
+ORD-1761,Carlos Martinez,Beto.Perez @outlook.com,55-9764-550670,4547.76,Paid
+ORD-1762,Luisa Perez,ANA.GOMEZ@AGENCY.IO,,4212.99,Refunded
+ORD-1763,Miguel Lopez,  Luisa.Smith@agency.io ,55-7233-112407,1692.58,Refunded
+ORD-1764,Pedro Garcia,sofia.garcia@hotmail.com,55-4889-869290,3883.58,Refunded
+ORD-1765,Miguel Martinez,PEDRO.PEREZ@OUTLOOK.COM,+52 1 7956904087,1302.04,Refunded
+ORD-1766,Juan Gomez,SOFIA.LOPEZ@GMAIL.COM,2821836941,4297.84,Refunded
+ORD-1767,Pedro Perez,,3201921509,519.86,Pending
+ORD-1768,Pedro Martinez,SOFIA.HERNANDEZ@AGENCY.IO,Tel: 4514549852 Ext 123,1542.39,Pending
+ORD-1769,Diana Gomez,luisa.gomez@empresa.mx,Tel: 9982238221 Ext 123,4231.92,Paid
+ORD-1770,Carlos Diaz,sofia.garcia@agency.io,,1419.49,Pending
+ORD-1771,Diana Lopez,PEDRO.HERNANDEZ@HOTMAIL.COM,(676) 894 6322,200.35,Pending
+ORD-1772,Ana Garcia,Carlos.Martinez @empresa.mx,+52 1 9806804475,1877.99,Pending
+ORD-1773,Beto Diaz,JUAN.LOPEZ@GMAIL.COM,(555) 857 9744,414.89,Refunded
+ORD-1774,Ana Lopez,beto.smith@yahoo.com,3559078863,4025.42,Refunded
+ORD-1775,Diana Garcia,PEDRO.LOPEZ@HOTMAIL.COM,55-9939-726003,4264.99,Paid
+ORD-1776,Beto Martinez,ANA.LOPEZ@OUTLOOK.COM,+52 1 7731758554,3187.24,Pending
+ORD-1777,Juan Martinez,PEDRO.SMITH@OUTLOOK.COM,6015634316,616.3,Refunded
+ORD-1778,Juan Gomez,,(868) 810 5388,1896.03,Pending
+ORD-1779,Juan Garcia,ANA.GOMEZ@YAHOO.COM,55-1131-971371,4715.58,Refunded
+ORD-1780,Sofia Gomez,  Carlos.Perez@outlook.com ,55-4845-917142,591.35,Refunded
+ORD-1781,Miguel Lopez,Miguel.Gomez @HOTMAIL.COM,+52 1 2938829012,1176.35,Pending
+ORD-1782,Juan Lopez,SOFIA.HERNANDEZ@YAHOO.COM,4418945659,4680.69,Paid
+ORD-1783,Luisa Martinez,Juan.Lopez @yahoo.com,,570.89,Pending
+ORD-1784,Miguel Smith,miguel.ruiz@outlook.com,(841) 802 0914,1461.83,Refunded
+ORD-1785,Carlos Diaz,ana.diaz@gmail.com,+52 1 9244084218,3076.94,Pending
+ORD-1786,Ana Ruiz,  Juan.Garcia@gmail.com ,+52 1 6588523710,140.97,Pending
+ORD-1787,Sofia Lopez,,+52 1 4085550996,2351.33,Paid
+ORD-1788,Ana Gomez,MIGUEL.DIAZ@EMPRESA.MX,55-8423-884845,2748.54,Pending
+ORD-1789,Diana Perez,  Beto.Smith@yahoo.com ,2352029278,2361.66,Paid
+ORD-1790,Miguel Martinez,Sofia.Diaz @agency.io,+52 1 6994461625,1703.32,Refunded
+ORD-1791,Sofia Diaz,carlos.diaz@yahoo.com,Tel: 3257583684 Ext 123,1676.61,Refunded
+ORD-1792,Diana Perez,  Miguel.Martinez@outlook.com ,,2916.05,Pending
+ORD-1793,Carlos Gomez,ana.gomez@agency.io,Tel: 3186813830 Ext 123,87.97,Pending
+ORD-1794,Maria Ruiz,MIGUEL.MARTINEZ@OUTLOOK.COM,4772599038,4153.57,Refunded
+ORD-1795,Sofia Lopez,  Sofia.Perez@agency.io ,,3312.68,Refunded
+ORD-1796,Miguel Smith,  Juan.Ruiz@gmail.com ,55-3659-685856,1785.29,Refunded
+ORD-1797,Miguel Diaz,MIGUEL.MARTINEZ@EMPRESA.MX,55-9312-121702,553.01,Pending
+ORD-1798,Sofia Garcia,DIANA.GOMEZ@GMAIL.COM,,1305.07,Pending
+ORD-1799,Pedro Diaz,CARLOS.RUIZ@EMPRESA.MX,55-4403-646831,1569.11,Paid
+ORD-1800,Luisa Gomez,  Juan.Garcia@HOTMAIL.COM ,5984034007,2429.82,Refunded
+ORD-1801,Diana Ruiz,,55-3823-921231,2985.66,Refunded
+ORD-1802,Maria Perez,Sofia.Lopez @empresa.mx,Tel: 6162961787 Ext 123,2183.32,Pending
+ORD-1803,Diana Perez,diana.diaz@hotmail.com,+52 1 2211519695,788.21,Pending
+ORD-1804,Carlos Smith,CARLOS.LOPEZ@AGENCY.IO,4494333929,4968.86,Refunded
+ORD-1805,Juan Ruiz,MARIA.MARTINEZ@YAHOO.COM,+52 1 1275882137,2584.2,Refunded
+ORD-1806,Carlos Smith,beto.ruiz@agency.io,Tel: 8711227173 Ext 123,3567.87,Pending
+ORD-1807,Ana Martinez,carlos.garcia@agency.io,,2114.68,Refunded
+ORD-1808,Diana Smith,SOFIA.SMITH@HOTMAIL.COM,(360) 862 6708,2866.58,Paid
+ORD-1809,Luisa Hernandez,beto.gomez@empresa.mx,55-3987-687839,154.99,Pending
+ORD-1810,Pedro Lopez,Pedro.Hernandez @yahoo.com,+52 1 8262478955,1208.78,Paid
+ORD-1811,Maria Martinez,  Diana.Ruiz@outlook.com ,Tel: 6673979059 Ext 123,541.6,Paid
+ORD-1812,Pedro Smith,sofia.perez@agency.io,(985) 361 6679,2467.84,Pending
+ORD-1813,Miguel Gomez,  Diana.Martinez@HOTMAIL.COM ,+52 1 3819081273,395.03,Refunded
+ORD-1814,Maria Smith,sofia.martinez@empresa.mx,(538) 489 9406,2264.48,Refunded
+ORD-1815,Carlos Gomez,SOFIA.MARTINEZ@HOTMAIL.COM,,1420.76,Pending
+ORD-1816,Maria Perez,  Luisa.Hernandez@empresa.mx ,,803.9,Refunded
+ORD-1817,Miguel Gomez,JUAN.HERNANDEZ@GMAIL.COM,7989046743,3996.13,Refunded
+ORD-1818,Miguel Lopez,sofia.ruiz@agency.io,8393749107,2910.33,Refunded
+ORD-1819,Miguel Gomez,Beto.Ruiz @agency.io,(984) 752 2995,555.86,Refunded
+ORD-1820,Beto Lopez,ANA.GOMEZ@OUTLOOK.COM,Tel: 4087405873 Ext 123,1672.13,Pending
+ORD-1821,Luisa Gomez,carlos.garcia@outlook.com,(496) 148 7796,1716.33,Paid
+ORD-1822,Juan Perez,maria.lopez@gmail.com,Tel: 6292552767 Ext 123,4787.01,Pending
+ORD-1823,Miguel Hernandez,SOFIA.HERNANDEZ@GMAIL.COM,,3801.09,Pending
+ORD-1824,Luisa Martinez,juan.diaz@outlook.com,+52 1 9322042644,3318.58,Refunded
+ORD-1825,Juan Garcia,  Miguel.Gomez@outlook.com ,55-2104-719571,4038.14,Pending
+ORD-1826,Miguel Hernandez,JUAN.SMITH@HOTMAIL.COM,9895318891,3365.34,Paid
+ORD-1827,Beto Martinez,Juan.Perez @gmail.com,(454) 595 4436,140.51,Pending
+ORD-1828,Sofia Martinez,  Carlos.Perez@yahoo.com ,(285) 870 7148,782.51,Pending
+ORD-1829,Carlos Hernandez,CARLOS.SMITH@HOTMAIL.COM,55-7569-241604,3334.39,Refunded
+ORD-1830,Ana Gomez,miguel.garcia@agency.io,2684072591,3441.75,Refunded
+ORD-1831,Luisa Lopez,  Maria.Lopez@empresa.mx ,(842) 787 1736,3071.16,Paid
+ORD-1832,Beto Gomez,,,3644.24,Paid
+ORD-1833,Luisa Diaz,juan.garcia@agency.io,Tel: 1786886252 Ext 123,4096.45,Refunded
+ORD-1834,Miguel Ruiz,  Maria.Garcia@HOTMAIL.COM ,Tel: 9992036557 Ext 123,4098.24,Pending
+ORD-1835,Sofia Perez,  Miguel.Lopez@empresa.mx ,,3943.8,Refunded
+ORD-1836,Beto Gomez,Sofia.Smith @agency.io,,2201.88,Refunded
+ORD-1837,Juan Gomez,ANA.LOPEZ@OUTLOOK.COM,55-3143-823608,2016.75,Refunded
+ORD-1838,Maria Hernandez,ana.martinez@yahoo.com,6924993309,1989.25,Refunded
+ORD-1839,Maria Diaz,LUISA.RUIZ@EMPRESA.MX,55-9453-041220,1957.49,Pending
+ORD-1840,Ana Smith,LUISA.GARCIA@HOTMAIL.COM,Tel: 6406935172 Ext 123,1666.28,Refunded
+ORD-1841,Luisa Hernandez,ana.martinez@gmail.com,+52 1 6013699531,4248.6,Pending
+ORD-1842,Miguel Gomez,Miguel.Diaz @yahoo.com,9967175749,2946.04,Paid
+ORD-1843,Pedro Martinez,,Tel: 9471859471 Ext 123,3876.88,Pending
+ORD-1844,Miguel Garcia,  Diana.Hernandez@empresa.mx ,+52 1 2488023004,1142.84,Paid
+ORD-1845,Beto Garcia,Beto.Gomez @gmail.com,+52 1 9821500366,4876.57,Pending
+ORD-1846,Ana Smith,MIGUEL.GARCIA@HOTMAIL.COM,55-2451-530939,4340.57,Paid
+ORD-1847,Miguel Hernandez,diana.smith@agency.io,(539) 732 1977,2003.43,Paid
+ORD-1848,Diana Diaz,CARLOS.MARTINEZ@EMPRESA.MX,55-4528-166364,3275.99,Refunded
+ORD-1849,Beto Perez,Pedro.Perez @yahoo.com,55-4392-029189,3512.45,Pending
+ORD-1850,Maria Ruiz,,8564603691,167.75,Refunded
+ORD-1851,Beto Gomez,  Luisa.Diaz@agency.io ,9079616277,4419.44,Pending
+ORD-1852,Maria Diaz,luisa.ruiz@outlook.com,+52 1 2933433055,677.48,Paid
+ORD-1853,Pedro Ruiz,pedro.lopez@empresa.mx,+52 1 7843173596,1250.1,Refunded
+ORD-1854,Luisa Ruiz,,+52 1 9596850648,3202.18,Pending
+ORD-1855,Sofia Garcia,Diana.Smith @gmail.com,+52 1 8291528329,163.47,Pending
+ORD-1856,Ana Perez,MIGUEL.RUIZ@GMAIL.COM,55-9651-428865,2907.71,Pending
+ORD-1857,Juan Lopez,DIANA.LOPEZ@AGENCY.IO,+52 1 8876990288,4490.78,Pending
+ORD-1858,Luisa Ruiz,miguel.smith@outlook.com,9794437802,2332.02,Pending
+ORD-1859,Luisa Ruiz,  Beto.Smith@empresa.mx ,55-3977-025221,4628.63,Paid
+ORD-1860,Ana Diaz,juan.diaz@yahoo.com,+52 1 8948143659,2811.74,Refunded
+ORD-1861,Miguel Lopez,juan.hernandez@hotmail.com,Tel: 6817334733 Ext 123,2393.85,Refunded
+ORD-1862,Maria Hernandez,carlos.lopez@yahoo.com,Tel: 4687130520 Ext 123,4514.45,Refunded
+ORD-1863,Beto Hernandez,Maria.Perez @yahoo.com,+52 1 9372420197,2174.05,Paid
+ORD-1864,Diana Gomez,DIANA.RUIZ@OUTLOOK.COM,3838224063,1844.64,Refunded
+ORD-1865,Sofia Perez,BETO.GOMEZ@GMAIL.COM,+52 1 3091832779,2575.43,Paid
+ORD-1866,Luisa Gomez,Miguel.Perez @outlook.com,(977) 802 5542,730.32,Pending
+ORD-1867,Miguel Smith,  Juan.Garcia@outlook.com ,,2152.05,Refunded
+ORD-1868,Beto Ruiz,carlos.hernandez@hotmail.com,55-7197-160324,497.02,Pending
+ORD-1869,Carlos Diaz,Sofia.Diaz @agency.io,+52 1 1424814255,2286.09,Paid
+ORD-1870,Pedro Martinez,Miguel.Ruiz @yahoo.com,Tel: 2922347050 Ext 123,4977.25,Refunded
+ORD-1871,Sofia Gomez,  Carlos.Lopez@empresa.mx ,4173067418,1015.9,Pending
+ORD-1872,Maria Hernandez,Maria.Smith @gmail.com,55-4445-501806,2998.07,Refunded
+ORD-1873,Juan Lopez,  Maria.Garcia@yahoo.com ,55-7684-050534,2566.8,Refunded
+ORD-1874,Sofia Lopez,Beto.Gomez @gmail.com,+52 1 8536825436,2836.5,Paid
+ORD-1875,Pedro Ruiz,LUISA.MARTINEZ@EMPRESA.MX,(338) 491 9937,4593.14,Refunded
+ORD-1876,Luisa Martinez,LUISA.HERNANDEZ@YAHOO.COM,1983039438,70.23,Paid
+ORD-1877,Ana Hernandez,pedro.smith@agency.io,(282) 143 6949,526.28,Pending
+ORD-1878,Diana Garcia,  Miguel.Ruiz@yahoo.com ,55-9876-540360,2157.67,Paid
+ORD-1879,Maria Martinez,  Ana.Hernandez@agency.io ,+52 1 2468167428,1573.76,Paid
+ORD-1880,Juan Perez,JUAN.SMITH@HOTMAIL.COM,7974761568,3932.12,Refunded
+ORD-1881,Ana Smith,CARLOS.SMITH@HOTMAIL.COM,(405) 322 4100,2889.65,Paid
+ORD-1882,Diana Garcia,diana.martinez@yahoo.com,Tel: 9117104525 Ext 123,4083.14,Paid
+ORD-1883,Ana Ruiz,Sofia.Smith @outlook.com,(746) 797 6943,4439.5,Pending
+ORD-1884,Sofia Lopez,  Ana.Ruiz@yahoo.com ,55-1199-530393,1704.55,Refunded
+ORD-1885,Pedro Gomez,DIANA.RUIZ@HOTMAIL.COM,Tel: 4085693538 Ext 123,241.8,Paid
+ORD-1886,Ana Diaz,MARIA.DIAZ@AGENCY.IO,Tel: 6862961192 Ext 123,1981.63,Pending
+ORD-1887,Miguel Perez,MIGUEL.DIAZ@EMPRESA.MX,55-2285-971142,4567.63,Refunded
+ORD-1888,Sofia Martinez,JUAN.LOPEZ@HOTMAIL.COM,+52 1 3829906735,4350.78,Refunded
+ORD-1889,Miguel Garcia,  Sofia.Martinez@yahoo.com ,3562307700,869.28,Pending
+ORD-1890,Miguel Smith,CARLOS.GOMEZ@AGENCY.IO,+52 1 8485318175,948.53,Pending
+ORD-1891,Carlos Gomez,  Beto.Ruiz@gmail.com ,Tel: 5406166717 Ext 123,3406.82,Paid
+ORD-1892,Sofia Lopez,JUAN.RUIZ@GMAIL.COM,(529) 871 2251,73.83,Paid
+ORD-1893,Ana Garcia,CARLOS.LOPEZ@YAHOO.COM,,3871.7,Paid
+ORD-1894,Pedro Smith,BETO.GOMEZ@EMPRESA.MX,,4992.43,Refunded
+ORD-1895,Diana Diaz,Pedro.Ruiz @empresa.mx,55-2169-680561,714.23,Refunded
+ORD-1896,Pedro Lopez,Carlos.Smith @yahoo.com,,2178.06,Pending
+ORD-1897,Ana Martinez,  Beto.Perez@HOTMAIL.COM ,,1455.9,Paid
+ORD-1898,Ana Ruiz,Miguel.Garcia @agency.io,+52 1 9478114390,4250.4,Pending
+ORD-1899,Ana Perez,MIGUEL.SMITH@HOTMAIL.COM,(584) 158 5204,1610.41,Pending
+ORD-1900,Beto Lopez,Juan.Garcia @HOTMAIL.COM,8709647552,1586.1,Paid
+ORD-1901,Juan Diaz,Carlos.Smith @HOTMAIL.COM,55-1669-543027,821.64,Pending
+ORD-1902,Beto Garcia,  Luisa.Smith@yahoo.com ,(312) 428 4214,2661.14,Paid
+ORD-1903,Diana Diaz,Sofia.Diaz @outlook.com,(327) 287 6054,3511.39,Refunded
+ORD-1904,Maria Ruiz,  Sofia.Martinez@empresa.mx ,4061380986,781.21,Pending
+ORD-1905,Sofia Perez,LUISA.PEREZ@AGENCY.IO,Tel: 6282120259 Ext 123,1943.85,Paid
+ORD-1906,Sofia Hernandez,SOFIA.GARCIA@YAHOO.COM,3366709958,4224.1,Paid
+ORD-1907,Carlos Diaz,  Carlos.Garcia@yahoo.com ,5606125412,247.12,Pending
+ORD-1908,Beto Perez,  Beto.Smith@gmail.com ,Tel: 1814606911 Ext 123,4259.07,Paid
+ORD-1909,Sofia Hernandez,  Luisa.Ruiz@outlook.com ,Tel: 2396819979 Ext 123,773.02,Refunded
+ORD-1910,Pedro Diaz,juan.martinez@empresa.mx,Tel: 1502120615 Ext 123,576.8,Paid
+ORD-1911,Beto Diaz,  Miguel.Gomez@HOTMAIL.COM ,(450) 623 5384,3626.29,Refunded
+ORD-1912,Maria Gomez,  Ana.Diaz@agency.io ,,539.44,Paid
+ORD-1913,Carlos Lopez,Luisa.Ruiz @HOTMAIL.COM,(643) 676 3573,2056.5,Pending
+ORD-1914,Carlos Lopez,Beto.Martinez @gmail.com,1922069399,1297.76,Pending
+ORD-1915,Juan Gomez,Diana.Garcia @agency.io,+52 1 3362938053,812.17,Refunded
+ORD-1916,Sofia Perez,  Luisa.Perez@agency.io ,(674) 535 5000,2277.45,Pending
+ORD-1917,Pedro Garcia,DIANA.GOMEZ@GMAIL.COM,6699512078,2467.56,Paid
+ORD-1918,Carlos Gomez,MIGUEL.GOMEZ@GMAIL.COM,(910) 165 6953,1275.5,Paid
+ORD-1919,Miguel Hernandez,Beto.Hernandez @outlook.com,2411593130,1033.93,Paid
+ORD-1920,Juan Garcia,,55-8088-913744,464.98,Pending
+ORD-1921,Diana Diaz,carlos.smith@hotmail.com,Tel: 1828728349 Ext 123,3481.76,Pending
+ORD-1922,Luisa Hernandez,Sofia.Perez @empresa.mx,Tel: 8203736763 Ext 123,3264.72,Paid
+ORD-1923,Carlos Smith,Sofia.Gomez @outlook.com,+52 1 1104060654,2077.03,Refunded
+ORD-1924,Maria Ruiz,  Juan.Hernandez@agency.io ,55-8632-973964,2811.86,Pending
+ORD-1925,Pedro Diaz,Diana.Perez @HOTMAIL.COM,Tel: 4002467446 Ext 123,2031.58,Refunded
+ORD-1926,Pedro Martinez,MARIA.SMITH@HOTMAIL.COM,+52 1 5645597581,3074.24,Pending
+ORD-1927,Ana Martinez,luisa.lopez@yahoo.com,5968650552,609.5,Pending
+ORD-1928,Ana Perez,,+52 1 3773237348,3113.69,Pending
+ORD-1929,Pedro Gomez,beto.smith@hotmail.com,+52 1 5959410574,2651.31,Paid
+ORD-1930,Sofia Gomez,,Tel: 9709294022 Ext 123,1428.73,Refunded
+ORD-1931,Maria Smith,pedro.ruiz@yahoo.com,Tel: 2514052667 Ext 123,4945.14,Paid
+ORD-1932,Maria Diaz,CARLOS.SMITH@HOTMAIL.COM,6624765893,428.18,Pending
+ORD-1933,Miguel Diaz,,Tel: 7709202131 Ext 123,1979.8,Refunded
+ORD-1934,Carlos Martinez,  Miguel.Perez@agency.io ,4591442437,3520.26,Paid
+ORD-1935,Miguel Martinez,Luisa.Smith @agency.io,(964) 703 7655,3649.22,Paid
+ORD-1936,Beto Hernandez,,55-3822-194630,1660.42,Refunded
+ORD-1937,Luisa Martinez,  Maria.Lopez@HOTMAIL.COM ,(809) 253 7799,3051.21,Refunded
+ORD-1938,Diana Gomez,ANA.PEREZ@GMAIL.COM,Tel: 4946158940 Ext 123,284.45,Refunded
+ORD-1939,Pedro Gomez,beto.diaz@empresa.mx,6243215778,1083.84,Refunded
+ORD-1940,Luisa Garcia,DIANA.SMITH@OUTLOOK.COM,Tel: 1743456620 Ext 123,661.23,Pending
+ORD-1941,Sofia Hernandez,BETO.MARTINEZ@EMPRESA.MX,55-8109-153856,4142.31,Paid
+ORD-1942,Carlos Lopez,Carlos.Martinez @yahoo.com,55-8969-268559,2676.04,Paid
+ORD-1943,Carlos Martinez,  Ana.Diaz@empresa.mx ,+52 1 4439744341,3088.44,Paid
+ORD-1944,Luisa Martinez,,+52 1 8129815354,4927.86,Refunded
+ORD-1945,Sofia Ruiz,  Luisa.Martinez@yahoo.com ,Tel: 1167417779 Ext 123,892.88,Paid
+ORD-1946,Luisa Perez,,2134790979,2848.8,Refunded
+ORD-1947,Beto Perez,carlos.smith@hotmail.com,55-1446-955167,574.23,Refunded
+ORD-1948,Miguel Diaz,CARLOS.GOMEZ@OUTLOOK.COM,Tel: 3378675782 Ext 123,3040.73,Pending
+ORD-1949,Juan Perez,  Sofia.Ruiz@agency.io ,,1182.45,Refunded
+ORD-1950,Maria Lopez,Beto.Ruiz @empresa.mx,+52 1 7481110545,57.83,Pending
+ORD-1951,Maria Hernandez,  Beto.Garcia@empresa.mx ,,2535.49,Pending
+ORD-1952,Diana Perez,Carlos.Perez @empresa.mx,7182467054,806.22,Paid
+ORD-1953,Sofia Hernandez,,+52 1 4379657444,4113.14,Refunded
+ORD-1954,Luisa Diaz,,Tel: 7145189355 Ext 123,2924.97,Paid
+ORD-1955,Diana Diaz,pedro.gomez@hotmail.com,Tel: 7637494284 Ext 123,2194.76,Refunded
+ORD-1956,Diana Garcia,SOFIA.LOPEZ@AGENCY.IO,Tel: 2959283450 Ext 123,1950.61,Pending
+ORD-1957,Pedro Gomez,maria.ruiz@hotmail.com,Tel: 5642483404 Ext 123,4989.93,Paid
+ORD-1958,Miguel Martinez,BETO.SMITH@AGENCY.IO,(213) 422 7166,206.94,Refunded
+ORD-1959,Beto Gomez,Miguel.Garcia @empresa.mx,+52 1 6049065417,4502.75,Refunded
+ORD-1960,Carlos Lopez,Pedro.Perez @empresa.mx,55-1084-124734,4652.17,Pending
+ORD-1961,Carlos Lopez,ana.diaz@hotmail.com,Tel: 4208033099 Ext 123,4291.87,Pending
+ORD-1962,Miguel Ruiz,  Luisa.Perez@gmail.com ,+52 1 1831097975,2786.44,Paid
+ORD-1963,Miguel Lopez,Miguel.Hernandez @empresa.mx,9819985966,2314.45,Pending
+ORD-1964,Sofia Lopez,Maria.Smith @empresa.mx,+52 1 9222000149,2360.19,Paid
+ORD-1965,Luisa Ruiz,  Pedro.Smith@empresa.mx ,55-9238-843431,3116.06,Refunded
+ORD-1966,Miguel Martinez,Beto.Diaz @gmail.com,55-3376-327216,1003.61,Paid
+ORD-1967,Beto Hernandez,Beto.Smith @gmail.com,,2308.63,Pending
+ORD-1968,Sofia Martinez,  Pedro.Smith@outlook.com ,,2775.71,Refunded
+ORD-1969,Luisa Gomez,Carlos.Garcia @yahoo.com,55-9552-754946,4264.78,Paid
+ORD-1970,Pedro Lopez,Juan.Perez @yahoo.com,+52 1 1787563953,4196.82,Paid
+ORD-1971,Sofia Gomez,maria.martinez@empresa.mx,55-7901-714216,2094.71,Refunded
+ORD-1972,Miguel Ruiz,Miguel.Martinez @gmail.com,,378.5,Paid
+ORD-1973,Diana Martinez,luisa.hernandez@agency.io,(536) 951 7127,4809.83,Paid
+ORD-1974,Luisa Martinez,miguel.martinez@empresa.mx,Tel: 4109219754 Ext 123,1291.76,Paid
+ORD-1975,Maria Perez,BETO.MARTINEZ@YAHOO.COM,55-7477-527951,1536.64,Pending
+ORD-1976,Beto Martinez,pedro.gomez@outlook.com,(258) 652 8409,3190.92,Pending
+ORD-1977,Juan Hernandez,  Ana.Garcia@HOTMAIL.COM ,8502360696,4601.18,Refunded
+ORD-1978,Ana Smith,Luisa.Smith @yahoo.com,,3816.57,Pending
+ORD-1979,Diana Perez,juan.martinez@agency.io,+52 1 7931735884,2592.76,Refunded
+ORD-1980,Miguel Hernandez,ANA.PEREZ@OUTLOOK.COM,+52 1 2125446042,1083.44,Paid
+ORD-1981,Sofia Ruiz,,Tel: 1495601698 Ext 123,2386.05,Paid
+ORD-1982,Miguel Perez,diana.ruiz@gmail.com,55-7464-389132,4533.69,Refunded
+ORD-1983,Juan Hernandez,ana.garcia@empresa.mx,(979) 154 4267,3263.04,Paid
+ORD-1984,Ana Perez,MIGUEL.GARCIA@GMAIL.COM,55-9831-669556,3603.45,Refunded
+ORD-1985,Diana Gomez,LUISA.HERNANDEZ@GMAIL.COM,,1727.41,Refunded
+ORD-1986,Beto Lopez,Ana.Smith @agency.io,,2649.99,Paid
+ORD-1987,Pedro Martinez,,,1651.91,Paid
+ORD-1988,Pedro Hernandez,  Sofia.Perez@HOTMAIL.COM ,(912) 892 6547,4432.95,Refunded
+ORD-1989,Ana Perez,,55-5134-904947,3868.49,Pending
+ORD-1990,Sofia Ruiz,Sofia.Smith @agency.io,5999874269,2247.76,Pending
+ORD-1991,Diana Perez,BETO.GARCIA@OUTLOOK.COM,9438126785,2026.97,Refunded
+ORD-1992,Maria Gomez,  Beto.Diaz@agency.io ,5678756846,81.33,Refunded
+ORD-1993,Beto Hernandez,  Pedro.Garcia@yahoo.com ,Tel: 8088005017 Ext 123,142.92,Paid
+ORD-1994,Juan Perez,miguel.lopez@empresa.mx,2053818015,3517.79,Refunded
+ORD-1995,Sofia Gomez,Beto.Perez @HOTMAIL.COM,(496) 526 9129,827.91,Refunded
+ORD-1996,Beto Martinez,carlos.hernandez@yahoo.com,(872) 680 8181,3366.5,Pending
+ORD-1997,Sofia Hernandez,Beto.Martinez @yahoo.com,+52 1 1038190426,3152.11,Pending
+ORD-1998,Diana Perez,Pedro.Lopez @outlook.com,+52 1 9624980221,4083.51,Pending
+ORD-1999,Beto Gomez,MARIA.GARCIA@OUTLOOK.COM,55-6633-687997,4030.16,Paid
