@@ -115,3 +115,140 @@
             <a href="#pricing" class="btn btn-outline">
                 <span class="content-en">Get License</span>
                 <span class="content-es hidden">Comprar Licencia</span>
+                <span class="content-pt hidden">Comprar Licença</span>
+            </a>
+        </div>
+    </section>
+
+    <section class="features">
+        <h2 class="section-title">
+            <span class="content-en">Why Agencies Choose Us</span>
+            <span class="content-es hidden">Por qué nos eligen</span>
+            <span class="content-pt hidden">Por que nos escolhem</span>
+        </h2>
+        
+        <div class="grid">
+            <div class="card">
+                <div class="card-icon">🧹</div>
+                <div class="content-en">
+                    <h3>Smart Cleaning</h3>
+                    <p>Automatically fixes format errors in Emails and Phones. Removes spaces and normalizes data.</p>
+                </div>
+                <div class="content-es hidden">
+                    <h3>Limpieza Inteligente</h3>
+                    <p>Corrige automáticamente errores de formato en Emails y Teléfonos. Elimina espacios y normaliza.</p>
+                </div>
+                <div class="content-pt hidden">
+                    <h3>Limpeza Inteligente</h3>
+                    <p>Corrige automaticamente erros de formato em Emails e Telefones. Remove espaços e normaliza.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">🔒</div>
+                <div class="content-en">
+                    <h3>GDPR & SHA256</h3>
+                    <p>One-click hashing. Apply SHA256 encryption to emails/phones/IDs for safe Custom Audiences.</p>
+                </div>
+                <div class="content-es hidden">
+                    <h3>GDPR y SHA256</h3>
+                    <p>Hashing en un clic. Encriptación SHA256 para emails/teléfonos/IDs para Audiencias Seguras.</p>
+                </div>
+                <div class="content-pt hidden">
+                    <h3>LGPD e SHA256</h3>
+                    <p>Hashing em um clique. Criptografia SHA256 para emails/telefones/IDs para Públicos Seguros.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">🛡️</div>
+                <div class="content-en">
+                    <h3>100% Private</h3>
+                    <p>Local processing. Data is processed in-memory and never stored on our servers.</p>
+                </div>
+                <div class="content-es hidden">
+                    <h3>100% Privado</h3>
+                    <p>Procesamiento local. Los datos se procesan en memoria y nunca se guardan en servidores.</p>
+                </div>
+                <div class="content-pt hidden">
+                    <h3>100% Privado</h3>
+                    <p>Processamento local. Os dados são processados na memória e nunca salvos em servidores.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="steps">
+        <h2 class="section-title">
+            <span class="content-en">How it works</span>
+            <span class="content-es hidden">Cómo funciona</span>
+            <span class="content-pt hidden">Como funciona</span>
+        </h2>
+        
+        <div class="step-item">
+            <div class="step-num">1</div>
+            <div>
+                <span class="content-en"><h3>Upload CSV</h3><p>Supports .csv and .xlsx with any columns.</p></span>
+                <span class="content-es hidden"><h3>Sube CSV</h3><p>Soporta .csv y .xlsx con cualquier columna.</p></span>
+                <span class="content-pt hidden"><h3>Carregue CSV</h3><p>Suporta .csv e .xlsx com qualquer coluna.</p></span>
+            </div>
+        </div>
+        
+        <div class="step-item">
+            <div class="step-num">2</div>
+            <div>
+                <span class="content-en"><h3>Map & Clean</h3><p>Select Email, Phone or ID columns.</p></span>
+                <span class="content-es hidden"><h3>Mapea y Limpia</h3><p>Selecciona columnas de Email, Teléfono o ID.</p></span>
+                <span class="content-pt hidden"><h3>Mapeie e Limpe</h3><p>Selecione colunas de Email, Telefone ou ID.</p></span>
+            </div>
+        </div>
+
+        <div class="step-item">
+            <div class="step-num">3</div>
+            <div>
+                <span class="content-en"><h3>Download</h3><p>Enter License Key and get secure file.</p></span>
+                <span class="content-es hidden"><h3>Descarga</h3><p>Ingresa tu Licencia y obtén el archivo.</p></span>
+                <span class="content-pt hidden"><h3>Baixe</h3><p>Insira sua Licença e obtenha o arquivo.</p></span>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 AdData Cleaner PRO. All rights reserved.</p>
+        <p>Aguascalientes, México.</p>
+        <div class="footer-links">
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="mailto:mario@quanter.mx">Support: mario@quanter.mx</a>
+        </div>
+    </footer>
+
+    <script>
+        // Array de idiomas
+        const languages = ['en', 'es', 'pt'];
+        let currentIndex = 0; // Empieza en Inglés
+
+        function cycleLang() {
+            // Ocultar idioma actual
+            const currentCode = languages[currentIndex];
+            document.querySelectorAll(`.content-${currentCode}`).forEach(el => el.classList.add('hidden'));
+
+            // Calcular siguiente idioma
+            currentIndex = (currentIndex + 1) % languages.length;
+            const nextCode = languages[currentIndex];
+
+            // Mostrar siguiente idioma
+            document.querySelectorAll(`.content-${nextCode}`).forEach(el => el.classList.remove('hidden'));
+            
+            // Actualizar etiqueta lang del HTML
+            document.documentElement.lang = nextCode;
+
+            // Actualizar botón
+            const btn = document.getElementById('langBtn');
+            if (nextCode === 'en') btn.innerText = "🇺🇸 English";
+            if (nextCode === 'es') btn.innerText = "🇲🇽 Español";
+            if (nextCode === 'pt') btn.innerText = "🇧🇷 Português";
+        }
+    </script>
+</body>
+</html>
