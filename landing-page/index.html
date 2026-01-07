@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdData Cleaner PRO - Secure CSV Cleaning for Marketers</title>
+    <meta name="description" content="Automate your Facebook & Google Ads data cleaning. SHA256 Hashing, Formatting & Validation in seconds.">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary: #2563eb; /* Azul Tech */
+            --dark: #0f172a;    /* Fondo Oscuro */
+            --light: #f8fafc;   /* Texto Claro */
+            --accent: #10b981;  /* Verde Éxito */
+            --gray: #64748b;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
+        
+        body { background-color: var(--dark); color: var(--light); line-height: 1.6; }
+
+        /* --- Header & Nav --- */
+        header {
+            padding: 20px 5%;
+            display: flex;
+            justify-content: space-between;
+            align_items: center;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        .logo { font-weight: 800; font-size: 1.5rem; color: var(--light); text-decoration: none; }
+        .logo span { color: var(--primary); }
+        
+        .lang-switch button {
+            background: transparent; border: 1px solid var(--gray); color: var(--light);
+            padding: 5px 15px; border-radius: 20px; cursor: pointer; transition: 0.3s;
+        }
+        .lang-switch button:hover { border-color: var(--primary); color: var(--primary); }
+
+        /* --- Hero Section --- */
+        .hero {
+            text-align: center; padding: 100px 20px;
+            background: radial-gradient(circle at center, #1e293b 0%, #0f172a 70%);
+        }
+        h1 { font-size: 3.5rem; margin-bottom: 20px; line-height: 1.2; background: linear-gradient(to right, #fff, #94a3b8); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+        .hero p { font-size: 1.25rem; color: var(--gray); max-width: 700px; margin: 0 auto 40px; }
+        
+        .cta-buttons { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;}
+        .btn {
+            padding: 15px 30px; border-radius: 8px; font-weight: 600; text-decoration: none; transition: transform 0.2s;
+        }
+        .btn-primary { background: var(--primary); color: white; border: none; }
+        .btn-outline { border: 1px solid var(--gray); color: white; }
+        .btn:hover { transform: translateY(-3px); }
+
+        /* --- Features Grid --- */
+        .features { padding: 80px 5%; background: #1e293b; }
+        .section-title { text-align: center; margin-bottom: 60px; font-size: 2.5rem; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px; }
+        
+        .card {
+            background: rgba(255,255,255,0.05); padding: 30px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.05);
+        }
+        .card-icon { font-size: 2rem; margin-bottom: 15px; }
+        .card h3 { margin-bottom: 10px; color: var(--light); }
+        .card p { color: var(--gray); font-size: 0.95rem; }
+
+        /* --- How it Works --- */
+        .steps { padding: 80px 5%; }
+        .step-item { display: flex; align-items: center; gap: 20px; margin-bottom: 30px; max-width: 800px; margin-left: auto; margin-right: auto; }
+        .step-num { 
+            background: var(--primary); width: 40px; height: 40px; border-radius: 50%; 
+            display: flex; align-items: center; justify-content: center; font-weight: bold; flex-shrink: 0;
+        }
+
+        /* --- Footer --- */
+        footer { padding: 40px 5%; text-align: center; border-top: 1px solid rgba(255,255,255,0.1); color: var(--gray); font-size: 0.9rem; }
+        .footer-links { margin-top: 20px; }
+        .footer-links a { color: var(--gray); text-decoration: none; margin: 0 10px; }
+
+        /* --- Utilities --- */
+        .hidden { display: none; }
+        
+        @media (max-width: 768px) {
+            h1 { font-size: 2.5rem; }
+            .step-item { flex-direction: column; text-align: center; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">AdData<span>Cleaner</span></a>
+        <div class="lang-switch">
+            <button onclick="toggleLang()" id="langBtn">ES / EN</button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="content-en">
+            <h1>Stop fighting with Excel.<br>Clean Ads Data in Seconds.</h1>
+            <p>The secure tool for Marketing Agencies to format, clean, and hash customer lists (SHA256) for Facebook & Google Ads. GDPR Compliant.</p>
+            <div class="cta-buttons">
+                <a href="TU_LINK_DE_STREAMLIT_AQUI" class="btn btn-primary">Launch App</a>
+                <a href="#pricing" class="btn btn-outline">Get License</a>
+            </div>
+        </div>
+
+        <div class="content-es hidden">
+            <h1>Deja de pelear con Excel.<br>Limpia tus Datos de Ads en Segundos.</h1>
+            <p>La herramienta segura para Agencias de Marketing. Formatea, limpia y encripta (SHA256) listas de clientes para Facebook y Google Ads. Cumple con GDPR.</p>
+            <div class="cta-buttons">
+                <a href="TU_LINK_DE_STREAMLIT_AQUI" class="btn btn-primary">Abrir App</a>
+                <a href="#pricing" class="btn btn-outline">Comprar Licencia</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <h2 class="section-title">
+            <span class="content-en">Why Agencies Choose Us</span>
+            <span class="content-es hidden">Por qué las Agencias nos eligen</span>
+        </h2>
+        
+        <div class="grid">
+            <div class="card">
+                <div class="card-icon">🧹</div>
+                <div class="content-en">
+                    <h3>Smart Cleaning</h3>
+                    <p>Automatically fixes format errors in Emails and Phones. Removes spaces, invalid characters, and normalizes data for Meta.</p>
+                </div>
+                <div class="content-es hidden">
+                    <h3>Limpieza Inteligente</h3>
+                    <p>Corrige automáticamente errores de formato en Emails y Teléfonos. Elimina espacios y normaliza datos para Meta.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">🔒</div>
+                <div class="content-en">
+                    <h3>GDPR & SHA256</h3>
+                    <p>One-click hashing. We apply SHA256 encryption to emails and phones so you can upload Custom Audiences safely.</p>
+                </div>
+                <div class="content-es hidden">
+                    <h3>GDPR y SHA256</h3>
+                    <p>Hashing en un clic. Aplicamos encriptación SHA256 a correos y teléfonos para subir Audiencias Personalizadas de forma segura.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">🛡️</div>
+                <div class="content-en">
+                    <h3>100% Private</h3>
+                    <p>Local processing. Your customer data never gets stored on our servers. It's processed in-memory and deleted instantly.</p>
+                </div>
+                <div class="content-es hidden">
+                    <h3>100% Privado</h3>
+                    <p>Procesamiento local. Los datos de tus clientes nunca se guardan en nuestros servidores. Se procesan en memoria y se borran.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="steps">
+        <h2 class="section-title">
+            <span class="content-en">How it works</span>
+            <span class="content-es hidden">Cómo funciona</span>
+        </h2>
+        
+        <div class="step-item">
+            <div class="step-num">1</div>
+            <div>
+                <h3 class="content-en">Upload your messy CSV</h3>
+                <h3 class="content-es hidden">Sube tu CSV desordenado</h3>
+                <p class="content-en">Supports .csv and .xlsx files with multiple columns.</p>
+                <p class="content-es hidden">Soporta archivos .csv y .xlsx con múltiples columnas.</p>
+            </div>
+        </div>
+        
+        <div class="step-item">
+            <div class="step-num">2</div>
+            <div>
+                <h3 class="content-en">Map & Clean</h3>
+                <h3 class="content-es hidden">Mapea y Limpia</h3>
+                <p class="content-en">Select which columns are Email, Phone, or ID. The tool fixes them automatically.</p>
+                <p class="content-es hidden">Selecciona qué columnas son Email, Teléfono o ID. La herramienta las arregla automáticamente.</p>
+            </div>
+        </div>
+
+        <div class="step-item">
+            <div class="step-num">3</div>
+            <div>
+                <h3 class="content-en">Download Secure Data</h3>
+                <h3 class="content-es hidden">Descarga Datos Seguros</h3>
+                <p class="content-en">Enter your License Key and get your ready-to-upload file.</p>
+                <p class="content-es hidden">Ingresa tu Licencia y obtén tu archivo listo para subir.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 AdData Cleaner PRO. All rights reserved.</p>
+        <p>Aguascalientes, México.</p>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="mailto:tu-email@empresa.com">Contact Support</a>
+        </div>
+    </footer>
+
+    <script>
+        let currentLang = 'en'; // Default English
+
+        function toggleLang() {
+            const enElements = document.querySelectorAll('.content-en');
+            const esElements = document.querySelectorAll('.content-es');
+            
+            if (currentLang === 'en') {
+                // Switch to Spanish
+                enElements.forEach(el => el.classList.add('hidden'));
+                esElements.forEach(el => el.classList.remove('hidden'));
+                document.documentElement.lang = 'es';
+                currentLang = 'es';
+            } else {
+                // Switch to English
+                esElements.forEach(el => el.classList.add('hidden'));
+                enElements.forEach(el => el.classList.remove('hidden'));
+                document.documentElement.lang = 'en';
+                currentLang = 'en';
+            }
+        }
+    </script>
+</body>
+</html>
