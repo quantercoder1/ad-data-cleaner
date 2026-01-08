@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cfdi="http://www.sat.gob.mx/cfd/4" Version="4.0" Serie="F" Folio="1006" Fecha="2025-01-09T00:00:00" Sello="SIMULACION_DE_SELLO_DIGITAL_SHA256_BASE64..." FormaPago="99" NoCertificado="00001000000505050505" SubTotal="14367.28" Moneda="MXN" Total="16666.04" TipoDeComprobante="I" Exportacion="01" MetodoPago="PUE" LugarExpedicion="20000">
+  <cfdi:Emisor Rfc="GOMJ880101L99" Nombre="Empresa Demo SA de CV" RegimenFiscal="601"/>
+  <cfdi:Receptor Rfc="XEXX010101000" Nombre="CLIENTE GENERICO SA DE CV" DomicilioFiscalReceptor="20000" RegimenFiscalReceptor="601" UsoCFDI="G03"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="80101500" Cantidad="1" ClaveUnidad="E48" Unidad="Servicio" Descripcion="Servicio de consultoría de software" ValorUnitario="14367.28" Importe="14367.28" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="14367.28" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="2298.76"/>
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="2298.76">
+    <cfdi:Traslados>
+      <cfdi:Traslado Base="14367.28" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="2298.76"/>
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+</cfdi:Comprobante>

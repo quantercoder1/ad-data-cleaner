@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cfdi="http://www.sat.gob.mx/cfd/4" Version="4.0" Serie="NOM" Folio="1059" Fecha="2025-05-13T00:00:00" Sello="SIMULACION_DE_SELLO_DIGITAL_SHA256_BASE64..." FormaPago="99" NoCertificado="00001000000505050505" SubTotal="33768.76" Moneda="MXN" Total="39171.76" TipoDeComprobante="I" Exportacion="01" MetodoPago="PUE" LugarExpedicion="20000">
+  <cfdi:Emisor Rfc="GOMJ880101L99" Nombre="Servicios SAT" RegimenFiscal="601"/>
+  <cfdi:Receptor Rfc="CLI990909QR9" Nombre="CLIENTE GENERICO SA DE CV" DomicilioFiscalReceptor="20000" RegimenFiscalReceptor="601" UsoCFDI="G03"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="80101500" Cantidad="1" ClaveUnidad="E48" Unidad="Servicio" Descripcion="Venta de equipo de cómputo" ValorUnitario="33768.76" Importe="33768.76" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="33768.76" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="5403.0"/>
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="5403.0">
+    <cfdi:Traslados>
+      <cfdi:Traslado Base="33768.76" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="5403.0"/>
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+</cfdi:Comprobante>

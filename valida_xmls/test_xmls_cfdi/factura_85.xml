@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cfdi="http://www.sat.gob.mx/cfd/4" Version="4.0" Serie="A" Folio="1084" Fecha="2025-01-03T00:00:00" Sello="SIMULACION_DE_SELLO_DIGITAL_SHA256_BASE64..." FormaPago="99" NoCertificado="00001000000505050505" SubTotal="7532.35" Moneda="MXN" Total="8737.53" TipoDeComprobante="I" Exportacion="01" MetodoPago="PUE" LugarExpedicion="20000">
+  <cfdi:Emisor Rfc="SAT970701NN3" Nombre="Quanter Consultores" RegimenFiscal="601"/>
+  <cfdi:Receptor Rfc="XEXX010101000" Nombre="CLIENTE GENERICO SA DE CV" DomicilioFiscalReceptor="20000" RegimenFiscalReceptor="601" UsoCFDI="G03"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="80101500" Cantidad="1" ClaveUnidad="E48" Unidad="Servicio" Descripcion="Servicio de consultoría de software" ValorUnitario="7532.35" Importe="7532.35" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="7532.35" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="1205.18"/>
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="1205.18">
+    <cfdi:Traslados>
+      <cfdi:Traslado Base="7532.35" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="1205.18"/>
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+</cfdi:Comprobante>

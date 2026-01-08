@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cfdi="http://www.sat.gob.mx/cfd/4" Version="4.0" Serie="NOM" Folio="1058" Fecha="2025-09-07T00:00:00" Sello="SIMULACION_DE_SELLO_DIGITAL_SHA256_BASE64..." FormaPago="99" NoCertificado="00001000000505050505" SubTotal="22838.82" Moneda="MXN" Total="26493.03" TipoDeComprobante="I" Exportacion="01" MetodoPago="PUE" LugarExpedicion="20000">
+  <cfdi:Emisor Rfc="QUAN260101XYZ" Nombre="Quanter Consultores" RegimenFiscal="601"/>
+  <cfdi:Receptor Rfc="CLI990909QR9" Nombre="CLIENTE GENERICO SA DE CV" DomicilioFiscalReceptor="20000" RegimenFiscalReceptor="601" UsoCFDI="G03"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="80101500" Cantidad="1" ClaveUnidad="E48" Unidad="Servicio" Descripcion="Curso de capacitación Python" ValorUnitario="22838.82" Importe="22838.82" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="22838.82" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="3654.21"/>
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="3654.21">
+    <cfdi:Traslados>
+      <cfdi:Traslado Base="22838.82" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="3654.21"/>
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+</cfdi:Comprobante>
