@@ -49,7 +49,7 @@ textos = {
     "Español": {
         "titulo": "💎 AdData Cleaner PRO",
         "subtitulo": "Herramienta Enterprise: Limpieza y Hashing (Email, Teléfono, User ID).",
-        "aviso": "Procesamiento seguro en memoria. Integración oficial Lemon Squeezy.",
+        "aviso": "Procesamiento seguro en memoria.",
         "subir": "Sube tu archivo (CSV o Excel)",
         "config": "Mapeo de Columnas",
         "col_email": "Columna de Email (Opcional)",
@@ -67,7 +67,7 @@ textos = {
     "English": {
         "titulo": "💎 AdData Cleaner PRO",
         "subtitulo": "Enterprise Tool: Cleaning & Hashing (Email, Phone, User ID).",
-        "aviso": "Secure in-memory processing. Official Lemon Squeezy Integration.",
+        "aviso": "Secure in-memory processing.",
         "subir": "Upload File (CSV or Excel)",
         "config": "Column Mapping",
         "col_email": "Email Column (Optional)",
@@ -85,7 +85,7 @@ textos = {
     "Português": {
         "titulo": "💎 AdData Cleaner PRO",
         "subtitulo": "Ferramenta Enterprise: Limpeza e Hashing (Email, Telefone, User ID).",
-        "aviso": "Processamento seguro na memória. Integração oficial Lemon Squeezy.",
+        "aviso": "Processamento seguro na memória.",
         "subir": "Carregue seu arquivo (CSV ou Excel)",
         "config": "Mapeamento de Colunas",
         "col_email": "Coluna de Email (Opcional)",
