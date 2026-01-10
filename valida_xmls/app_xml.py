@@ -16,25 +16,35 @@ st.set_page_config(
 )
 
 # --- 0. BASE DE DATOS DE USUARIOS ---
-# NOTA: Las claves del diccionario deben estar en minúsculas
+# Aquí definimos los accesos y los PLANES (Demo, Basic, Pro)
 USERS_DB = {
+    # Usuario Administrador (PRO - Ilimitado)
     "admin@quanter.com": {
         "name": "Mario Saucedo",
         "password": "admin",
         "plan": "PRO",
         "company": "Quanter Consultores"
     },
-    "cliente@empresa.com": {
-        "name": "Cliente Demo",
+    # Usuario Nuevo 1 (BASIC - 20 Archivos)
+    "usuario1@general.com": {
+        "name": "Usuario Estándar",
+        "password": "user1",
+        "plan": "BASIC", # <--- NUEVA LICENCIA DE 20
+        "company": "Comercializadora del Centro"
+    },
+    # Usuario Nuevo 2 (PRO - Ilimitado)
+    "usuario2@general.com": {
+        "name": "Gerente Finanzas",
+        "password": "user2",
+        "plan": "PRO",
+        "company": "Grupo Industrial Norte"
+    },
+    # Usuario Demo (DEMO - 5 Archivos)
+    "cliente@demo.com": {
+        "name": "Visitante Web",
         "password": "123",
         "plan": "DEMO",
-        "company": "Empresa Externa S.A."
-    },
-    "contador@despacho.com": {
-        "name": "Contador Pro",
-        "password": "pro",
-        "plan": "PRO",
-        "company": "Despacho Fiscal"
+        "company": "Invitado"
     }
 }
 
@@ -42,36 +52,23 @@ USERS_DB = {
 st.markdown("""
 <style>
     /* Estilo sutil para métricas */
-    [data-testid="stMetricValue"] {
-        color: #2563eb; /* Azul corporativo */
-    }
+    [data-testid="stMetricValue"] { color: #2563eb; }
     
-    /* Badges para el Plan */
+    /* BADGES (Etiquetas de Plan) */
     .badge-pro {
-        background-color: #dcfce7; /* Verde muy suave */
-        color: #166534; /* Verde oscuro texto */
-        padding: 4px 10px;
-        border-radius: 12px;
-        font-size: 0.85rem;
-        font-weight: 700;
-        border: 1px solid #bbf7d0;
+        background-color: #dcfce7; color: #166534;
+        padding: 4px 10px; border-radius: 12px; font-weight: 700; border: 1px solid #bbf7d0;
+    }
+    .badge-basic {
+        background-color: #f3e8ff; color: #6b21a8; /* Morado */
+        padding: 4px 10px; border-radius: 12px; font-weight: 700; border: 1px solid #e9d5ff;
     }
     .badge-demo {
-        background-color: #dbeafe; /* Azul muy suave */
-        color: #1e40af; /* Azul oscuro texto */
-        padding: 4px 10px;
-        border-radius: 12px;
-        font-size: 0.85rem;
-        font-weight: 700;
-        border: 1px solid #bfdbfe;
+        background-color: #dbeafe; color: #1e40af;
+        padding: 4px 10px; border-radius: 12px; font-weight: 700; border: 1px solid #bfdbfe;
     }
     
-    /* Botones principales más robustos */
-    .stButton>button {
-        font-weight: bold;
-        border-radius: 8px;
-        height: 3em;
-    }
+    .stButton>button { font-weight: bold; border-radius: 8px; height: 3em; }
 </style>
 """, unsafe_allow_html=True)
 
@@ -82,9 +79,8 @@ if 'user_info' not in st.session_state:
     st.session_state['user_info'] = None
 
 def login(email, password):
-    # LIMPIEZA DE DATOS (CORRECCIÓN DE ERRORES DE DEDO)
-    email_limpio = email.strip().lower() # Quita espacios y convierte a minúsculas
-    pass_limpio = password.strip()       # Quita espacios a la contraseña
+    email_limpio = email.strip().lower()
+    pass_limpio = password.strip()
 
     if email_limpio in USERS_DB:
         if USERS_DB[email_limpio]['password'] == pass_limpio:
@@ -94,7 +90,7 @@ def login(email, password):
         else:
             st.error("🔒 Contraseña incorrecta")
     else:
-        st.error(f"👤 El usuario '{email_limpio}' no existe en la base de datos.")
+        st.error(f"👤 El usuario '{email_limpio}' no existe.")
 
 def logout():
     st.session_state['logged_in'] = False
@@ -102,7 +98,7 @@ def logout():
     st.rerun()
 
 # ==========================================
-# VISTA 1: LOGIN (LIMPIO)
+# VISTA 1: LOGIN
 # ==========================================
 if not st.session_state['logged_in']:
     col1, col2, col3 = st.columns([1, 1, 1])
@@ -110,11 +106,10 @@ if not st.session_state['logged_in']:
         st.write("")
         st.write("")
         st.markdown("<h1 style='text-align: center;'>🛡️ Auditor Fiscal PRO</h1>", unsafe_allow_html=True)
-        st.markdown("<p style='text-align: center; color: grey;'>Inicia sesión para acceder a la plataforma.</p>", unsafe_allow_html=True)
+        st.markdown("<p style='text-align: center; color: grey;'>Inicia sesión para acceder.</p>", unsafe_allow_html=True)
         st.markdown("---")
 
         with st.form("login_form"):
-            # value="" asegura que empiece vacío, pero puedes poner un default para probar
             email = st.text_input("Correo Electrónico")
             password = st.text_input("Contraseña", type="password")
             submit = st.form_submit_button("Entrar", type="primary")
@@ -122,10 +117,10 @@ if not st.session_state['logged_in']:
         if submit:
             login(email, password)
             
-        st.info("Tip: Usa `admin@quanter.com` / `admin` para probar.")
+        st.info("Tip: Usa `usuario1@general.com` / `user1` para probar el límite de 20 archivos.")
 
 # ==========================================
-# VISTA 2: APLICACIÓN PRINCIPAL
+# VISTA 2: APLICACIÓN
 # ==========================================
 else:
     USER = st.session_state['user_info']
@@ -156,7 +151,7 @@ else:
 
     EFOS_SET, SAT_DB_ACTIVA, MENSAJE_SAT = cargar_lista_negra_local()
 
-    # --- 2. FUNCIONES DE VALIDACIÓN ---
+    # --- 2. VALIDACIONES ---
     def validar_efos(rfc, blacklist):
         if not blacklist: return "❓ No verificado"
         if rfc in blacklist: return "⛔ ALERTA EFO"
@@ -251,17 +246,21 @@ else:
         except Exception as e:
             return {"Error": str(e)}, False
 
-    # --- SIDEBAR DE USUARIO ---
+    # --- SIDEBAR: PERFIL DE USUARIO ---
     with st.sidebar:
         st.title("👤 Mi Cuenta")
         st.write(f"**Usuario:** {USER['name']}")
-        st.write(f"**Empresa:** {USER['company']}")
+        st.caption(USER['company'])
         
         st.divider()
         st.write("Estado de la Licencia:")
+        
         if PLAN == "PRO":
             st.markdown("<span class='badge-pro'>✨ PLAN PRO</span>", unsafe_allow_html=True)
             st.caption("Capacidad Ilimitada")
+        elif PLAN == "BASIC":
+            st.markdown("<span class='badge-basic'>🔹 PLAN BÁSICO</span>", unsafe_allow_html=True)
+            st.caption("Límite: 20 Archivos")
         else:
             st.markdown("<span class='badge-demo'>💡 MODO DEMO</span>", unsafe_allow_html=True)
             st.caption("Límite: 5 Archivos")
@@ -274,11 +273,10 @@ else:
     st.title("🛡️ Auditor Fiscal PRO")
     st.markdown("Validación masiva de CFDI 4.0, cruce con listas negras y auditoría contable.")
 
-    # Status de BD SAT
     if SAT_DB_ACTIVA:
         st.success(f"✅ {MENSAJE_SAT}")
     else:
-        st.warning(f"⚠️ {MENSAJE_SAT}. (Sube 'lista_negra_sat.csv' a la carpeta del proyecto para activar).")
+        st.warning(f"⚠️ {MENSAJE_SAT}. (Sube 'lista_negra_sat.csv' para activar).")
     
     st.divider()
 
@@ -303,16 +301,23 @@ else:
                 if st.checkbox(opcion, value=True, key=f"chk_{i}"):
                     reglas_seleccionadas.append(opcion)
 
-    # --- EJECUCIÓN ---
+    # --- EJECUCIÓN (CON LÍMITES) ---
     if ejecutar:
         if not uploaded_files:
             st.warning("⚠️ Carga al menos un archivo XML.")
         else:
-            # Límite de Licencia
+            # --- DEFINICIÓN DE LÍMITES ---
+            limite = float('inf') # Por defecto infinito
+            if PLAN == "DEMO":
+                limite = 5
+            elif PLAN == "BASIC":
+                limite = 20
+            
+            # --- APLICACIÓN DEL LÍMITE ---
             archivos_a_procesar = uploaded_files
-            if PLAN == "DEMO" and len(uploaded_files) > 5:
-                archivos_a_procesar = uploaded_files[:5]
-                st.warning(f"⚠️ **MODO DEMO:** Se procesarán solo los primeros 5 archivos de {len(uploaded_files)}.")
+            if len(uploaded_files) > limite:
+                archivos_a_procesar = uploaded_files[:limite]
+                st.warning(f"⚠️ **LÍMITE DE PLAN {PLAN}:** Subiste {len(uploaded_files)} archivos, pero solo se procesarán los primeros {limite}.")
 
             with st.spinner("Procesando..."):
                 all_data = []
@@ -342,12 +347,11 @@ else:
                     num_math = df[df["Val. Aritmética"].str.contains("⚠️", na=False)].shape[0]
                     m4.metric("Errores Aritméticos", num_math)
 
-                # Estilos para Tabla (Colores Claros para Modo Light)
                 def highlight_issues(val):
                     s_val = str(val)
-                    if "ALERTA" in s_val: return 'background-color: #fee2e2; color: #991b1b; font-weight: bold;' # Rojo suave
+                    if "ALERTA" in s_val: return 'background-color: #fee2e2; color: #991b1b; font-weight: bold;'
                     if "⛔" in s_val: return 'background-color: #fecaca; color: #7f1d1d;' 
-                    if "⚠️" in s_val: return 'background-color: #fef9c3; color: #854d0e;' # Amarillo suave
+                    if "⚠️" in s_val: return 'background-color: #fef9c3; color: #854d0e;'
                     return ''
 
                 cols_val = [c for c in df.columns if "Val." in c]
@@ -356,7 +360,6 @@ else:
                 output = BytesIO()
                 with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
                     df.to_excel(writer, index=False)
-                    # Formato Excel
                     workbook = writer.book
                     worksheet = writer.sheets['Sheet1']
                     red_fmt = workbook.add_format({'bg_color': '#FFC7CE', 'font_color': '#9C0006'})
